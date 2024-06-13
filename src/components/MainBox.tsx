@@ -1,7 +1,8 @@
 "use client"
 
 import React from "react";
-import ProgressiveImage from "react-progressive-image";
+
+import Image from "next/image";
 
 const MainBox: React.FunctionComponent<any> = () => (
   <div className="bg-gray-100 mb-1">
@@ -15,14 +16,13 @@ const MainBox: React.FunctionComponent<any> = () => (
       <p className="leading-8">And now I design and build an application, and I love what I do.</p>
     </div>
     <div className="flex flex-col items-center mt-12 text-center pt-12">
-      {/* @ts-ignore */}
-      <ProgressiveImage
-        src={require("../../public/images/etc/main_image.jpg")}
-        placeholder={require("../../public/images/etc/main_image_tiny.jpg")}>
-        {(src: string, loading: boolean) => (
-          <img className={`w-full max-w-3xl ${loading ? "blur-lg" : ""}`} src={src} alt="Main" />
-        )}
-      </ProgressiveImage>
+    <Image
+                src={require("../../public/images/etc/main_image.jpg")}
+                className={"w-full max-w-3xl"} 
+        placeholder="blur"
+        alt="Main"
+      />
+      
     </div>
   </div>
 );

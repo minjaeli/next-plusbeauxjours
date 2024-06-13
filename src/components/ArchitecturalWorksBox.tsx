@@ -23,12 +23,12 @@ const ArchitecturalWorksBox: React.FunctionComponent<any> = () => (
       <div className="flex flex-col items-center text-center h-full mb-8">
         <div className="text-4xl font-semibold mb-8 leading-10">My Architectural Works</div>
         <p className="w-4/5 leading-8 mb-8">
-          Architecture is similar to programming. Observe and think about problems. Build a team,
-          and tons of drawing, tons of meeting, tons of coffee were necessary to find the best way
-          to solve it. They cannot work alone, construction teams always ask for drawings from the
-          design team who has tons of feedback from the client. To have good communication and save
-          time, I learned design tools and how to manage a construction team as a Full-stack
-          Developer.
+          Architecture is similar to programming. It involves observing and thinking about problems.
+          Building a team, creating numerous drawings, holding many meetings, and drinking lots of
+          coffee are all necessary to find the best solution. Construction teams can't work alone;
+          they constantly request drawings from the design team, which has received extensive
+          feedback from the client. To ensure good communication and save time, I learned design
+          tools and how to manage a construction team as a Full-stack Developer.
         </p>
       </div>
       {ArchitectureImages.map((image, index) => (
