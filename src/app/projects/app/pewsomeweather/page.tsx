@@ -41,42 +41,37 @@ const PewsomeWeather: React.FunctionComponent<any> = () => {
       <div className="flex justify-center mt-48">
         <Image
           src={"/images/app/pewsome/pewsome_screenshot_s1.jpg"}
-          width="400"
-          height="1200"
+          width={400}
+          height={1200}
           className={"max-w-xs w-full"}
-          placeholder="blur"
           alt="screenshot 1"
         />
         <Image
           src={"/images/app/pewsome/pewsome_screenshot_s2.jpg"}
-          width="400"
-          height="1200"
+          width={400}
+          height={1200}
           className={"max-w-xs w-full"}
-          placeholder="blur"
           alt="screenshot 2"
         />
         <Image
           src={"/images/app/pewsome/pewsome_screenshot_s3.jpg"}
-          width="400"
-          height="1200"
+          width={400}
+          height={1200}
           className={"max-w-xs w-full"}
-          placeholder="blur"
           alt="screenshot 3"
         />
         <Image
           src={"/images/app/pewsome/pewsome_screenshot_s4.jpg"}
-          width="400"
-          height="1200"
+          width={400}
+          height={1200}
           className={"max-w-xs w-full"}
-          placeholder="blur"
           alt="screenshot 4"
         />
         <Image
           src={"/images/app/pewsome/pewsome_screenshot_s5.jpg"}
-          width="400"
-          height="1200"
+          width={400}
+          height={1200}
           className={"max-w-xs w-full"}
-          placeholder="blur"
           alt="screenshot 5"
         />
       </div>
