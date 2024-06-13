@@ -39,13 +39,19 @@ const PopcornMovieWebPage = () => {
           <div className="w-4/5 text-center flex flex-col items-center">
             <p className="text-4xl font-semibold mb-2.5">About this Project</p>
             <div className="flex flex-row">
-            To practice the container and presentational design pattern, I spent two weeks coding with React and the TMDb API. It took longer than expected because I focused on writing clean code. This effort helped me understand the best practices for coding with class components, even though hooks offer a more streamlined approach. I enjoyed working with the TMDb API due to the vast amount of information available in the responses.
+              To practice the container and presentational design pattern, I spent two weeks coding
+              with React and the TMDb API. It took longer than expected because I focused on writing
+              clean code. This effort helped me understand the best practices for coding with class
+              components, even though hooks offer a more streamlined approach. I enjoyed working
+              with the TMDb API due to the vast amount of information available in the responses.
             </div>
           </div>
         </div>
         <div className="my-24 flex justify-center">
+          <div className="border-b border-gray-300 w-72" />
+        </div>
+        <div className="my-24 flex justify-center">
           <div className="w-4/5 text-center flex flex-col items-center">
-            <div className="border-b border-borderColor w-75 mb-5"></div>
             <p className="text-4xl font-semibold mb-2.5">Technical Sheet</p>
             <ul className="list-disc">
               <li>React</li>
@@ -57,15 +63,15 @@ const PopcornMovieWebPage = () => {
           </div>
         </div>
         <div className="my-24 flex justify-center">
-          <div className="w-4/5 text-center flex flex-col items-center">
-            <div className="border-b border-borderColor w-75 mb-5"></div>
-            <div className="flex flex-row justify-center w-full">
-              <div className="relative flex justify-center items-center w-50 h-50 bg-[#17171A]">
-                <div className="absolute text-center font-medium text-white">#17171A</div>
-              </div>
-            </div>
-            <div className="border-b border-borderColor w-75 my-24"></div>
+          <div className="border-b border-gray-300 w-72" />
+        </div>
+        <div className="flex justify-center">
+          <div className="relative flex justify-center items-center w-48 h-48 m-2 bg-black text-white">
+            <span className="absolute text-center font-light">#17171A</span>
           </div>
+        </div>
+        <div className="my-24 flex justify-center">
+          <div className="border-b border-gray-300 w-72" />
         </div>
         <div className="my-24 flex justify-center">
           <Image
