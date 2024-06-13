@@ -34,7 +34,7 @@ const PittyToDoPage: React.FunctionComponent<any> = () => {
           </p>
         </div>
       </div>
-      <div className="my-8 flex justify-center">
+      <div className="my-24 flex justify-center">
         <div className="border-b border-gray-300 w-72" />
       </div>
       <div className="flex justify-center mt-8">
@@ -54,7 +54,7 @@ const PittyToDoPage: React.FunctionComponent<any> = () => {
           </div>
         ))}
       </div>
-      <div className="my-8 flex justify-center">
+      <div className="my-24 flex justify-center">
         <div className="border-b border-gray-300 w-72" />
       </div>
       <div className="flex justify-center mt-48">

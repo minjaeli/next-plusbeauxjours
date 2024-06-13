@@ -59,18 +59,18 @@ const PopcornMoviePage: React.FunctionComponent<any> = () => {
           </p>
         </div>
       </div>
-      <div className="my-8 flex justify-center">
+      <div className="my-24 flex justify-center">
         <div className="border-b border-gray-300 w-72" />
       </div>
-      <div className="flex justify-center mt-8">
+      <div className="flex justify-center">
         <div className="relative flex justify-center items-center w-48 h-48 m-2 bg-black text-white">
           <span className="absolute text-center font-light">#17171A</span>
         </div>
       </div>
-      <div className="my-8 flex justify-center">
+      <div className="my-24 flex justify-center">
         <div className="border-b border-gray-300 w-72" />
       </div>
-      <div className="flex justify-center mt-48">
+      <div className="flex justify-center mt-24">
         <Image
           src={"/images/app/popcorn_movie/popcorn_movie_video.gif"}
           width={1200}

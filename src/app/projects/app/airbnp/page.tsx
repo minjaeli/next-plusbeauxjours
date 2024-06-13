@@ -73,10 +73,10 @@ const AirbnpAppPage: React.FunctionComponent<any> = () => {
           </p>
         </div>
       </div>
-      <div className="my-8 flex justify-center">
+      <div className="my-24 flex justify-center">
         <div className="border-b border-gray-300 w-72" />
       </div>
-      <div className="my-8 flex justify-center">
+      <div className="my-24 flex justify-center">
         <div className="relative flex justify-center items-center w-48 h-48 m-2 bg-gray-200 text-black">
           <span className="absolute text-center font-light">#EDEDED</span>
         </div>
@@ -84,10 +84,10 @@ const AirbnpAppPage: React.FunctionComponent<any> = () => {
           <span className="absolute text-center font-light">#35B8B3</span>
         </div>
       </div>
-      <div className="my-8 flex justify-center">
+      <div className="my-24 flex justify-center">
         <div className="border-b border-gray-300 w-72" />
       </div>
-      <div className="flex justify-center mt-48">
+      <div className="flex justify-center mt-24">
         <Image
           src={"/images/app/airbnp/airbnp_video.gif"}
           className="max-w-full"
