@@ -5,7 +5,7 @@ import Image from "next/image";
 
 import { GithubIcon, WebIcon } from "@/components/Icons";
 
-const AirbnpWeb: React.FunctionComponent<any> = () => {
+const AirbnpWebPage: React.FunctionComponent<any> = () => {
   return (
     <div className="bg-bgColor mb-72">
       <div className="bg-bgColor flex justify-around h-96 border-b border-gray-300 md:flex-col md:items-center md:h-auto">
@@ -106,4 +106,4 @@ const AirbnpWeb: React.FunctionComponent<any> = () => {
   );
 };
 
-export default AirbnpWeb;
+export default AirbnpWebPage;
