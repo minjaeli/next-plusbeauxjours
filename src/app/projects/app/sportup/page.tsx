@@ -5,10 +5,10 @@ import { GithubIcon } from "@/components/Icons";
 const SportUpAppPage = () => {
   return (
     <div className="bg-bgColor mb-72">
-      <div className="bg-bgColor flex justify-around h-96 border-b border-borderColor">
+      <div className="bg-bgColor flex justify-around h-96 border-b border-gray-300">
         <div className="w-100 h-100 flex flex-col justify-center items-center">
           <div className="text-4xl font-semibold mb-2.5 leading-10 p-2.5">SportUp</div>
-          <div className="flex w-full justify-between flex-row border-t border-borderColor">
+          <div className="flex w-full justify-between flex-row border-t border-gray-300">
             <div className="mt-1.5 text-sm">8th Jul 2020 - 1st Aug 2020</div>
             <div className="mt-1.5 text-sm">4 WEEKS</div>
           </div>
@@ -51,7 +51,7 @@ const SportUpAppPage = () => {
       </div>
       <div className="my-24 flex justify-center">
         <div className="w-4/5 text-center flex flex-col items-center">
-          <div className="border-b border-borderColor w-75 mb-5"></div>
+          <div className="border-b border-gray-300 w-72 mb-5"></div>
           <p className="text-4xl font-semibold mb-2.5">Technical Sheet</p>
           <ul className="list-disc">
             <li>Django</li>
