@@ -59,6 +59,7 @@ const AirbnpAppPage: React.FunctionComponent<any> = () => {
           <p className="font-semibold mb-2">Technical Sheet</p>
           <p className="w-4/5 leading-8">
             Technical Sheet Code technologies I got involved with while working on this project:
+          </p>
             <ul className="list-disc list-inside">
               <li>Django</li>
               <li>REST-Api</li>
@@ -70,7 +71,6 @@ const AirbnpAppPage: React.FunctionComponent<any> = () => {
               <li>Sentry</li>
               <li>Heroku</li>
             </ul>
-          </p>
         </div>
       </div>
       <div className="my-24 flex justify-center">

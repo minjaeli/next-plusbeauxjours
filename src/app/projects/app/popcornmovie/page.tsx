@@ -50,13 +50,13 @@ const PopcornMoviePage: React.FunctionComponent<any> = () => {
           <p className="font-semibold mb-2">Technical Sheet</p>
           <p className="w-4/5 leading-8">
             Technical Sheet Code technologies I got involved with while working on this project:
+          </p>
             <ul className="list-disc list-inside">
               <li>React-Native</li>
               <li>Axios</li>
               <li>TypeScript</li>
               <li>Styled-Components</li>
             </ul>
-          </p>
         </div>
       </div>
       <div className="my-24 flex justify-center">
