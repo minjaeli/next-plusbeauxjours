@@ -10,7 +10,7 @@ const PinnerWebPage: React.FunctionComponent<any> = () => {
     <div className="bg-gray-100 mb-80">
       <div className="bg-gray-100 flex justify-around h-96 border-b border-gray-300 mb-8 md:flex-col md:items-center md:h-auto md:mb-20">
         <div className="w-96 h-96 flex flex-col justify-center items-center mb-8 md:mb-0">
-          <div className="text-4xl font-semibold mb-2 leading-none">Pinner - Web</div>
+          <div className="text-4xl font-semibold mb-2 leading-none">Pinner</div>
           <div className="flex w-full justify-between flex-row border-t border-gray-300 mt-2">
             <div className="mt-1 text-base">24th Aug 2019 - 18th Dec 2019</div>
             <div className="mt-1 text-base">4 MONTHS</div>
@@ -27,7 +27,7 @@ const PinnerWebPage: React.FunctionComponent<any> = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href={"https://github.com/plusbeauxjours/pinner-web"}
+              href={"https://github.com/plusbeauxjours/pinner-frontend"}
               className="flex flex-col items-center">
               <GithubIcon />
               <div className="text-xs text-center h-2">CLIENT</div>
