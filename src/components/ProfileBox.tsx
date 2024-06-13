@@ -9,7 +9,7 @@ const ProfileBox: React.FunctionComponent<any> = () => (
         my diverse background in technical and creative studies enables me to approach each phase of
         a project proactively. I am quietly confident, naturally curious, and enjoy adapting to
         different work environments. Outside of work, I have a beautiful wife and a cat (obviously).
-        I'd love to grab a coffee and get to know you, so don't hesitate to get in touch.
+        I&apos;d love to grab a coffee and get to know you, so don&apos;t hesitate to get in touch.
       </p>
     </div>
   </div>

@@ -1,5 +1,3 @@
-"use client"
-
 import React from "react";
 
 import Image from "next/image";
@@ -16,13 +14,13 @@ const MainBox: React.FunctionComponent<any> = () => (
       <p className="leading-8">And now I design and build an application, and I love what I do.</p>
     </div>
     <div className="flex flex-col items-center mt-12 text-center pt-12">
-    <Image
-                src={require("../../public/images/etc/main_image.jpg")}
-                className={"w-full max-w-3xl"} 
-        placeholder="blur"
+      <Image
+        src={"/images/etc/main_image.jpg"}
+        width="400"
+        height="400"
+        className={"w-full max-w-3xl"}
         alt="Main"
       />
-      
     </div>
   </div>
 );
