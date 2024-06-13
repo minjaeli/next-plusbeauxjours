@@ -10,7 +10,7 @@ const AirbnpAppPage: React.FunctionComponent<any> = () => {
     <div className="bg-gray-100 mb-72">
       <div className="bg-gray-100 flex justify-around h-100 border-b border-gray-300 flex-col md:flex-row items-center md:h-100">
         <div className="w-100 h-100 flex flex-col justify-center items-center mb-8 md:mb-0">
-          <div className="text-4xl font-semibold mb-4">Airbnp - App</div>
+          <div className="text-4xl font-semibold mb-4">Airbnp</div>
           <div className="flex w-full justify-between border-t border-gray-300 mt-2 pt-2">
             <div className="text-sm">1st Jun 2020 - 28th Jun 2020</div>
             <div className="text-sm">4 WEEKS</div>
