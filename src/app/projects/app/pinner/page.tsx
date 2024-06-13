@@ -42,7 +42,7 @@ const PinnerAppPage: React.FunctionComponent<any> = () => {
           <p className="font-semibold mb-2">About this Project</p>
           <p className="w-4/5 leading-8">
             This project is an extension of&nbsp;
-            <Link href={"/projects/web/pinner-web"} className="underline">
+            <Link href={"/projects/web/pinner"} className="underline">
               Pinner-Web
             </Link>
             This project is an extension of Pinner-Web because I believe that few travelers would
