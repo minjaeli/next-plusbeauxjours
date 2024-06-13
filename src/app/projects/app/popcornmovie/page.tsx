@@ -43,7 +43,7 @@ const PopcornMoviePage: React.FunctionComponent<any> = () => {
         </div>
       </div>
       <div className="my-8 flex justify-center">
-        <div className="border-b border-gray-300 w-72"></div>
+        <div className="border-b border-gray-300 w-72" />
       </div>
       <div className="my-24 flex justify-center">
         <div className="text-center flex flex-col items-center">
@@ -60,7 +60,7 @@ const PopcornMoviePage: React.FunctionComponent<any> = () => {
         </div>
       </div>
       <div className="my-8 flex justify-center">
-        <div className="border-b border-gray-300 w-72"></div>
+        <div className="border-b border-gray-300 w-72" />
       </div>
       <div className="flex justify-center mt-8">
         <div className="relative flex justify-center items-center w-48 h-48 m-2 bg-black text-white">
@@ -68,7 +68,7 @@ const PopcornMoviePage: React.FunctionComponent<any> = () => {
         </div>
       </div>
       <div className="my-8 flex justify-center">
-        <div className="border-b border-gray-300 w-72"></div>
+        <div className="border-b border-gray-300 w-72" />
       </div>
       <div className="flex justify-center mt-48">
         <Image

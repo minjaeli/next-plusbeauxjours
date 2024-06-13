@@ -1,18 +1,14 @@
 import React from "react";
-
 import Image from "next/image";
-
 import { GithubIcon } from "@/components/Icons";
-
-const JahanuriAppColors = ["#F2F2F2", "#4a9aa5"];
 
 const JahanuriAppPage = () => {
   return (
     <div className="bg-bgColor mb-72">
-      <div className="bg-bgColor flex justify-around h-96 border-b border-borderColor">
+      <div className="bg-bgColor flex justify-around h-96 border-b border-gray-300">
         <div className="w-100 h-100 flex flex-col justify-center items-center">
           <div className="text-4xl font-semibold mb-2.5 leading-10 p-2.5">Jahanuri</div>
-          <div className="flex w-full justify-between flex-row border-t border-borderColor">
+          <div className="flex w-full justify-between flex-row border-t border-gray-300">
             <div className="mt-1.5 text-sm">19th Apr 2020 - 31st May 2020</div>
             <div className="mt-1.5 text-sm">6 WEEKS</div>
           </div>
@@ -59,8 +55,10 @@ const JahanuriAppPage = () => {
         />
       </div>
       <div className="my-24 flex justify-center">
+        <div className="border-b border-gray-300 w-72" />
+      </div>
+      <div className="my-24 flex justify-center">
         <div className="w-4/5 text-center flex flex-col items-center">
-          <div className="border-b border-borderColor w-75 mb-5"></div>
           <p className="text-4xl font-semibold mb-2.5">Technical Sheet</p>
           <ul className="list-disc">
             <li>Django</li>
@@ -97,13 +95,13 @@ const JahanuriAppPage = () => {
         </div>
       </div>
       <div className="my-24 flex justify-center">
-        <div className="border-b border-borderColor w-75 mb-5"></div>
+        <div className="border-b border-gray-300 w-72" />
       </div>
       <div className="my-24 flex justify-center">
         <div className="w-4/5 text-center flex flex-col items-center">
           <p className="text-4xl font-semibold mb-2.5">Multi Select</p>
           <div>
-            n a few models, I used MultiSelectField from django-multiselectfield to select multiple
+            In a few models, I used MultiSelectField from django-multiselectfield to select multiple
             choices. MultiSelectField is essentially a CharField that stores the selected values as
             a comma-separated string.
           </div>
@@ -126,7 +124,6 @@ const JahanuriAppPage = () => {
           className="w-full max-w-4xl"
           alt="Jahanuri app multi select field"
         />
-
         <Image
           src={"/images/app/jahanuri/jahanuri_multi_select_field_Admin.jpg"}
           width={1200}
@@ -143,7 +140,7 @@ const JahanuriAppPage = () => {
         />
       </div>
       <div className="my-24 flex justify-center">
-        <div className="border-b border-borderColor w-75 mb-5"></div>
+        <div className="border-b border-gray-300 w-72" />
       </div>
       <div className="my-24 flex justify-center">
         <div className="w-4/5 text-center flex flex-col items-center">
@@ -164,24 +161,59 @@ const JahanuriAppPage = () => {
       </div>
       <div className="my-24 flex justify-center">
         <div className="flex flex-row justify-center w-full">
-          {JahanuriAppColors.map((color, index) => (
-            <div
-              className="relative flex justify-center items-center w-50 h-50"
-              key={index}
-              style={{ backgroundColor: color }}>
-              <div
-                className={`absolute text-center font-medium ${
-                  color === "#4a9aa5" ? "text-gray-300" : "text-primary"
-                }`}>
-                {color}
-              </div>
-            </div>
-          ))}
+          <div className="relative flex justify-center items-center w-48 h-48 m-2 bg-[#F2F2F2] text-black">
+            <span className="absolute text-center font-light">#F2F2F2</span>
+          </div>
+          <div className="relative flex justify-center items-center w-48 h-48 m-2 bg-[#4A9AA5] text-white">
+            <span className="absolute text-center font-light">#4A9AA5</span>
+          </div>
         </div>
       </div>
       <div className="my-24 flex justify-center">
-        <div className="border-b border-borderColor w-75 mb-5"></div>
+        <div className="border-b border-gray-300 w-72" />
       </div>
+      <div className="flex justify-center w-full mt-48">
+        <Image
+          src={"/images/app/jahanuri/jahanuri_video.gif"}
+          width={1200}
+          height={1200}
+          className="max-w-xs w-full mb-8 md:mr-8 last:mr-0"
+          alt="Jahanuri App Video"
+        />
+
+        <Image
+          src={"/images/app/jahanuri/jahanuri_screenshot_s4.jpg"}
+          width={1200}
+          height={1200}
+          className="max-w-xs w-full mb-8 md:mr-8 last:mr-0"
+          alt="Jahanuri App Screenshot 4"
+        />
+
+        <Image
+          src={"/images/app/jahanuri/jahanuri_screenshot_s1.jpg"}
+          width={1200}
+          height={1200}
+          className="max-w-xs w-full mb-8 md:mr-8 last:mr-0"
+          alt="Jahanuri App Screenshot 1"
+        />
+
+        <Image
+          src={"/images/app/jahanuri/jahanuri_screenshot_s2.jpg"}
+          width={1200}
+          height={1200}
+          className="max-w-xs w-full mb-8 md:mr-8 last:mr-0"
+          alt="Jahanuri App Screenshot 2"
+        />
+
+        <Image
+          src={"/images/app/jahanuri/jahanuri_screenshot_s3.jpg"}
+          width={1200}
+          height={1200}
+          className="max-w-xs w-full mb-8 md:mr-0"
+          alt="Jahanuri App Screenshot 3"
+        />
+      </div>
+
       <div className="my-24 flex justify-center">
         <div className="w-4/5 text-center flex flex-col items-center">
           <p className="text-4xl font-semibold mb-2.5">Long Term Gains</p>

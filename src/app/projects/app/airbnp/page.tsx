@@ -52,7 +52,7 @@ const AirbnpAppPage: React.FunctionComponent<any> = () => {
         </div>
       </div>
       <div className="my-8 flex justify-center">
-        <div className="border-b border-gray-300 w-72"></div>
+        <div className="border-b border-gray-300 w-72" />
       </div>
       <div className="my-24 flex justify-center">
         <div className="text-center flex flex-col items-center">
@@ -74,7 +74,7 @@ const AirbnpAppPage: React.FunctionComponent<any> = () => {
         </div>
       </div>
       <div className="my-8 flex justify-center">
-        <div className="border-b border-gray-300 w-72"></div>
+        <div className="border-b border-gray-300 w-72" />
       </div>
       <div className="my-8 flex justify-center">
         <div className="relative flex justify-center items-center w-48 h-48 m-2 bg-gray-200 text-black">
@@ -85,7 +85,7 @@ const AirbnpAppPage: React.FunctionComponent<any> = () => {
         </div>
       </div>
       <div className="my-8 flex justify-center">
-        <div className="border-b border-gray-300 w-72"></div>
+        <div className="border-b border-gray-300 w-72" />
       </div>
       <div className="flex justify-center mt-48">
         <Image
@@ -118,7 +118,7 @@ const AirbnpAppPage: React.FunctionComponent<any> = () => {
         />
       </div>
       <div className="my-8 flex justify-center">
-        <div className="border-b border-gray-300 w-72"></div>
+        <div className="border-b border-gray-300 w-72" />
       </div>
     </div>
   );

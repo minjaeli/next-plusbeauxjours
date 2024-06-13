@@ -36,7 +36,7 @@ const PewsomeWeather: React.FunctionComponent<any> = () => {
         </div>
       </div>
       <div className="flex justify-center my-8">
-        <div className="border-b border-gray-300 w-72"></div>
+        <div className="border-b border-gray-300 w-72" />
       </div>
       <div className="flex justify-center mt-48">
         <Image

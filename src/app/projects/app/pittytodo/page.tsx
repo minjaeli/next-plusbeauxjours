@@ -35,7 +35,7 @@ const PittyToDoPage: React.FunctionComponent<any> = () => {
         </div>
       </div>
       <div className="my-8 flex justify-center">
-        <div className="border-b border-gray-300 w-72"></div>
+        <div className="border-b border-gray-300 w-72" />
       </div>
       <div className="flex justify-center mt-8">
         {["#F23657", "#FFFFFF"].map((color, index) => (
@@ -55,7 +55,7 @@ const PittyToDoPage: React.FunctionComponent<any> = () => {
         ))}
       </div>
       <div className="my-8 flex justify-center">
-        <div className="border-b border-gray-300 w-72"></div>
+        <div className="border-b border-gray-300 w-72" />
       </div>
       <div className="flex justify-center mt-48">
         <Image
