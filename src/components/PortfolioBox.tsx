@@ -9,10 +9,10 @@ const PortfolioBox: React.FunctionComponent<any> = () => (
       <div className="flex flex-col items-center text-center relative">
         <div className="text-4xl font-semibold mb-8">Projects</div>
         <p className="w-4/5 leading-8 mb-8">
-          I&apos;m somewhat of a digital product enthusiast. Over the years, I&apos;ve used hundreds of web
-          and mobile apps across various industries and sectors. To enhance my skills and understand
-          how they work, I even cloned a few websites. Eventually, I thought it would be a fun
-          challenge to design and build my own.
+          I&apos;m somewhat of a digital product enthusiast. Over the years, I&apos;ve used hundreds
+          of web and mobile apps across various industries and sectors. To enhance my skills and
+          understand how they work, I even cloned a few websites. Eventually, I thought it would be
+          a fun challenge to design and build my own.
         </p>
       </div>
     </div>
@@ -40,7 +40,7 @@ const PortfolioBox: React.FunctionComponent<any> = () => (
             />
           </div>
         </Link>
-        <Link href={"/projects/app/jahanuri-app"}>
+        <Link href={"/projects/app/jahanuri"}>
           <div className="relative bg-white border border-gray-300 rounded-2xl w-full overflow-hidden">
             <Image
               src={"/images/thumbnails/app_thumbnail_jahanuri.jpg"}
@@ -51,7 +51,7 @@ const PortfolioBox: React.FunctionComponent<any> = () => (
             />
           </div>
         </Link>
-        <Link href={"/projects/app/pinner-app"}>
+        <Link href={"/projects/app/pinner"}>
           <div className="relative bg-white border border-gray-300 rounded-2xl w-full overflow-hidden">
             <Image
               src={"/images/thumbnails/app_thumbnail_pinner.jpg"}
@@ -62,7 +62,7 @@ const PortfolioBox: React.FunctionComponent<any> = () => (
             />
           </div>
         </Link>
-        <Link href={"/projects/web/pinner-web"}>
+        <Link href={"/projects/web/pinner"}>
           <div className="relative bg-white border border-gray-300 rounded-2xl w-full overflow-hidden">
             <Image
               src={"/images/thumbnails/web_thumbnail_pinner.jpg"}
@@ -73,7 +73,7 @@ const PortfolioBox: React.FunctionComponent<any> = () => (
             />
           </div>
         </Link>
-        <Link href={"/projects/web/puber-web"}>
+        <Link href={"/projects/web/puber"}>
           <div className="relative bg-white border border-gray-300 rounded-2xl w-full overflow-hidden">
             <Image
               src={"/images/thumbnails/web_thumbnail_puber.jpg"}

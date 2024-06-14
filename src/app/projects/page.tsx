@@ -83,27 +83,27 @@ const ProjectsPage: React.FunctionComponent<any> = () => {
               </div>
             </div>
           </Link>
-          <Link href={"/projects/web/pinner-web"}>
+          <Link href={"/projects/web/pinner"}>
             <div className="relative bg-white border border-gray-200 rounded-lg p-4 text-center">
               <img
                 src={"/images/thumbnails/web_thumbnail_pinner.jpg"}
                 className="w-full max-w-2xl"
-                alt="Pinner-Web"
+                alt="Pinner"
               />
               <div className="absolute inset-0 flex flex-col justify-center items-center bg-opacity-70 text-black">
-                <div className="text-xl font-bold mt-8">Pinner-Web</div>
+                <div className="text-xl font-bold mt-8">Pinner</div>
                 <div className="text-lg mt-2">
                   Solo traveler's meet-up app with Django, React, Graphene, Typescript
                 </div>
               </div>
             </div>
           </Link>
-          <Link href={"/projects/web/puber-web"}>
+          <Link href={"/projects/web/puber"}>
             <div className="relative bg-white border border-gray-200 rounded-lg p-4 text-center">
               <img
                 src={"/images/thumbnails/web_thumbnail_puber.jpg"}
                 className="w-full max-w-2xl"
-                alt="Puber-Web"
+                alt="Puber"
               />
               <div className="absolute inset-0 flex flex-col justify-center items-center bg-opacity-70 text-black">
                 <div className="text-xl font-bold mt-8">Puber</div>
@@ -113,12 +113,12 @@ const ProjectsPage: React.FunctionComponent<any> = () => {
               </div>
             </div>
           </Link>
-          <Link href={"/projects/web/airbnp-web"}>
+          <Link href={"/projects/web/airbnp"}>
             <div className="relative bg-white border border-gray-200 rounded-lg p-4 text-center">
               <img
                 src={"/images/thumbnails/web_thumbnail_airbnp.jpg"}
                 className="w-full max-w-2xl"
-                alt="Airbnp-Web"
+                alt="Airbnp"
               />
               <div className="absolute inset-0 flex flex-col justify-center items-center bg-opacity-70 text-black">
                 <div className="text-xl font-bold mt-8">Airbnp</div>
@@ -131,7 +131,7 @@ const ProjectsPage: React.FunctionComponent<any> = () => {
               <img
                 src={"/images/thumbnails/web_thumbnail_popcorn_movie.jpg"}
                 className="w-full max-w-2xl"
-                alt="Movie-Web"
+                alt="Movie"
               />
               <div className="absolute inset-0 flex flex-col justify-center items-center bg-opacity-70 text-black">
                 <div className="text-xl font-bold mt-8">Popcorn Movie</div>
