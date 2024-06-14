@@ -1,4 +1,8 @@
+import AboutColors from "@/components/AboutColors";
+import GreyLine from "@/components/GreyLine";
 import { GithubIcon, WebIcon } from "@/components/Icons";
+import TechnicalSheet from "@/components/TechnicalSheet";
+import TextBox from "@/components/TextBox";
 import Image from "next/image";
 import React from "react";
 
@@ -41,50 +45,52 @@ const PuberWebPage: React.FunctionComponent<any> = () => {
             </div>
           </div>
         </div>
-        <div className="my-24 flex justify-center">
-          <div className="w-4/5 text-center flex flex-col items-center">
-            <p className="font-medium mb-2">About this Project</p>
-            Puber is my first clone project. I decided to clone Uber because I was interested in
-            creating a two-sided marketplace and a location-based project. To deepen my
-            understanding of Django and Python, I wanted to compare them with other languages like
-            Express and Node.js. I read and wrote extensively, more than seven times, to gain a
-            better understanding of how two-sided marketplace projects work and to learn about
-            GraphQL.
-          </div>
-        </div>
-        <div className="my-6 flex justify-center">
-          <div className="border-b border-gray-300 w-72" />
-        </div>
-        <div className="my-24 flex justify-center">
-          <div className="w-4/5 text-center flex flex-col items-center">
-            <p className="font-medium mb-2">Technical Sheet</p>
-            Code technologies I got involved with while working on this project:
-            <ul className="list-disc list-inside mt-2">
-              <li>NodeJS</li>
-              <li>Express</li>
-              <li>GraphQL</li>
-              <li>TypeORM</li>
-              <li>React</li>
-              <li>Apollo</li>
-              <li>TypeScript</li>
-              <li>Styled-Components</li>
-              <li>GoogleMapAPI</li>
-              <li>Heroku</li>
-            </ul>
-          </div>
-        </div>
-        <div className="my-24 flex justify-center">
-          <div className="border-b border-gray-300 w-72" />
-        </div>
-        <div className="my-24 flex justify-center">
-          <div className="w-4/5 text-center flex flex-col items-center">
-            <p className="font-medium mb-2">Live Chat with GraphQL Subscriptions</p>
-            One of the exciting features of GraphQL is its ability to build real-time applications
-            using GraphQL subscriptions. Here’s how I utilized subscriptions in GraphQL to build a
-            real-time chat app with PostgreSQL, React, and Apollo.
-          </div>
-        </div>
-        <div className="flex justify-center">
+        <TextBox
+          title={"About this Project"}
+          text={
+            "Puber is my first clone project. I decided to clone Uber because I was interested in creating a two-sided marketplace and a location-based project. To deepen my understanding of Django and Python, I wanted to compare them with other languages like Express and Node.js. I read and wrote extensively, more than seven times, to gain a better understanding of how two-sided marketplace projects work and to learn about GraphQL."
+          }
+        />
+        <GreyLine />
+        <TechnicalSheet
+          list={[
+            "NodeJS",
+            "Express",
+            "GraphQL",
+            "TypeORM",
+            "React",
+            "Apollo",
+            "TypeScript",
+            "Styled-Components",
+            "GoogleMapAPI",
+            "Heroku",
+          ]}
+        />
+        <GreyLine />
+        <AboutColors
+          list={[
+            {
+              colorHex: "#C2C2C2",
+              textColorHex: "#000",
+            },
+            {
+              colorHex: "#F3F3F3",
+              textColorHex: "#000",
+            },
+            {
+              colorHex: "#000000",
+              textColorHex: "#FFF",
+            },
+          ]}
+        />
+        <GreyLine />
+        <TextBox
+          title={"Live Chat with GraphQL Subscriptions"}
+          text={
+            "One of the exciting features of GraphQL is its ability to build real-time applications using GraphQL subscriptions. Here’s how I utilized subscriptions in GraphQL to build a real-time chat app with PostgreSQL, React, and Apollo."
+          }
+        />
+        <div className="flex justify-center my-5">
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -107,66 +113,44 @@ const PuberWebPage: React.FunctionComponent<any> = () => {
         <div className="my-24 flex flex-col justify-center items-center">
           <Image
             src={"/images/web/puber/puber_Subscription.gif"}
-            className="w-full"
-            width={1200}
+            className="max-w-full mb-4"
+            width={800}
             height={1200}
             alt="Subscription Diagram"
           />
-          <img
+          <Image
             src={"/images/web/puber/puber_Subscription_Code.jpg"}
+            className="max-w-full mb-4"
+            width={800}
+            height={1200}
             alt="Subscription Code"
-            className="mt-24 mb-4 max-w-2xl"
           />
         </div>
-        <div className="my-24 flex justify-center">
-          <div className="border-b border-gray-300 w-72" />
-        </div>
-        <div className="flex justify-center">
-          {["#C2C2C2", "#F3F3F3", "#000000"].map((color, index) => (
-            <div
-              key={index}
-              className={"relative flex justify-center items-center w-48 h-48 m-2"}
-              style={{ backgroundColor: color }}>
-              <span
-                className={`absolute text-center font-light ${
-                  color === "#000000" ? "text-white" : "text-black"
-                }`}>
-                {color}
-              </span>
-            </div>
-          ))}
-        </div>
-        <div className="my-24 flex justify-center">
-          <div className="border-b border-gray-300 w-72" />
-        </div>
+        <GreyLine />
+
         <div className="flex flex-col items-center mt-24">
           <Image
             src={"/images/web/puber/puber_screenshot.jpg"}
-            className="w-full max-w-3xl"
-            width={1200}
+            className="max-w-full mb-4"
+            width={800}
             height={1200}
             alt="Puber Screenshot"
           />
           <Image
             src={"/images/web/puber/puber_video.gif"}
-            className="w-full max-w-3xl"
-            width={1200}
+            className="max-w-full mb-4"
+            width={800}
             height={1200}
             alt="Puber Video"
           />
         </div>
-        <div className="my-24 flex justify-center">
-          <div className="border-b border-gray-300 w-72" />
-        </div>
-        <div className="my-24 flex justify-center">
-          <div className="w-4/5 text-center flex flex-col items-center">
-            <p className="font-medium mb-2">Long Term Gains</p>
-            I’ve fallen in love with GraphQL. It’s awesome—easy, simple, and powerful. I also love
-            working with the Google Maps API and GraphQL subscriptions. Through this project, I
-            realized when to use Django and when to use Node.js. The only thing I feel I missed was
-            giving enough thought to the design.
-          </div>
-        </div>
+        <GreyLine />
+        <TextBox
+          title={"Long Term Gains"}
+          text={
+            "I’ve fallen in love with GraphQL. It’s awesome—easy, simple, and powerful. I also love working with the Google Maps API and GraphQL subscriptions. Through this project, I realized when to use Django and when to use Node.js. The only thing I feel I missed was giving enough thought to the design."
+          }
+        />
       </div>
     </div>
   );

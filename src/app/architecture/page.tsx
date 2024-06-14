@@ -25,7 +25,13 @@ const ArchitecturePage: React.FunctionComponent<any> = () => {
         <div className="z-50 fixed inset-0 flex justify-center items-center">
           <div className="fixed inset-0 bg-black opacity-50" onClick={() => setModalOpen(false)} />
           <div className="relative z-10 w-11/12 max-w-6xl">
-            <img className="w-full h-full" src={ArchitectureImages[key]} alt="Modal" />
+            <Image
+              className="w-full h-full"
+              width={1200}
+              height={1200}
+              src={ArchitectureImages[key]}
+              alt=""
+            />
           </div>
         </div>
       )}
@@ -43,7 +49,7 @@ const ArchitecturePage: React.FunctionComponent<any> = () => {
               className="w-full max-w-7xl"
               width={1200}
               height={1200}
-              alt={`Architecture ${index}`}
+              alt=""
             />
           </div>
         ))}

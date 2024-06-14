@@ -137,7 +137,7 @@ const PinnerAppPage: React.FunctionComponent<any> = () => {
           "When a user selects a city, the server creates a new city model if it doesn't already exist in the database. I used the Unsplash API for city images, RawSQL to find nearby cities, the Slack API for notifications, and the Google Place API for unique city IDs."
         }
       />
-      <div className="flex flex-row justify-center my-4">
+      <div className="flex flex-row justify-center my-5">
         <a
           target="_blank"
           rel="noopener noreferrer"
