@@ -1,9 +1,45 @@
 import React from "react";
 import Image from "next/image";
+import TextBox from "@/components/TextBox";
+import GreyLine from "@/components/GreyLine";
+import TechnicalSheet from "@/components/TechnicalSheet";
+import AboutColors from "@/components/AboutColors";
 
-const ShopsolAppColors = ["#2C6868", "#E39A9C", "#6BACAB"];
+const ShopsolAppColors = ["", "", ""];
 
 const ShopsolAppPage = () => {
+  const ScreenShots = () => {
+    const screenShotList = [
+      { url: "/images/app/shopsol/shopsol_screenshot.gif", title: "Screenshot GIF" },
+      { url: "/images/app/shopsol/shopsol_screenshot_s1.jpg", title: "Payment Screen" },
+      { url: "/images/app/shopsol/shopsol_screenshot_s2.jpg", title: "Employee List Screen" },
+      {
+        url: "/images/app/shopsol/shopsol_screenshot_s3.jpg",
+        title: "Expiry Date Management Screen",
+      },
+      { url: "/images/app/shopsol/shopsol_screenshot_s4.jpg", title: "Payment Screen" },
+      { url: "/images/app/shopsol/shopsol_screenshot_s5.jpg", title: "Checklist Screen" },
+      { url: "/images/app/shopsol/shopsol_screenshot_s6.jpg", title: "Daily Dashboard Screen" },
+      { url: "/images/app/shopsol/shopsol_screenshot_s7.jpg", title: "Weekly Dashboard Screen" },
+      { url: "/images/app/shopsol/shopsol_screenshot_s8.jpg", title: "Monthly Dashboard Screen" },
+    ];
+    return (
+      <div className="my-24 grid grid-cols-3 gap-4 justify-center">
+        {screenShotList.map((item: any, index: number) => (
+          <div key={index} className="flex flex-col items-center">
+            <Image
+              src={item.url}
+              className="max-w-xs w-full mb-8 md:mr-8 last:mr-0"
+              width={300}
+              height={650}
+              alt=""
+            />
+            <p className="text-xs text-center mt-2">{item.title}</p>
+          </div>
+        ))}
+      </div>
+    );
+  };
   return (
     <div className="bg-bgColor mb-72">
       <div className="flex justify-around h-96 bg-bgColor border-b border-gray-300">
@@ -15,142 +51,42 @@ const ShopsolAppPage = () => {
           </div>
         </div>
       </div>
-      <div className="my-24 flex justify-center">
-        <div className="w-4/5 text-center flex flex-col items-center">
-          <p className="text-4xl font-semibold mb-2.5">About this Project</p>
-          <div className="flex flex-row">
-            Shopsol is a Korean employee attendance tracking app. I worked for Shopsol for eight
-            months as a Mobile Frontend Developer. During this time, I refactored the code from EXPO
-            to React Native, set up the CI/CD pipeline with Fastlane, and redesigned the logo and
-            all screen layouts. I particularly enjoyed designing and building a dashboard screen for
-            visualizing employee status.
-          </div>
-        </div>
-      </div>
-      <div className="my-24 flex justify-center">
-        <div className="border-b border-gray-300 w-72" />
-      </div>
-      <div className="my-24 flex justify-center">
-        <div className="w-4/5 text-center flex flex-col items-center">
-          <p className="text-4xl font-semibold mb-2.5">Technical Sheet</p>
-          <ul className="list-disc">
-            <li>RESTful API</li>
-            <li>React-Native</li>
-            <li>TypeScript</li>
-            <li>Styled-Components</li>
-            <li>Fastlane</li>
-            <li>Codepush</li>
-          </ul>
-        </div>
-      </div>
-      <div className="my-24 flex justify-center">
-        <div className="border-b border-gray-300 w-72" />
-      </div>
-      <div className="flex justify-center mt-8">
-        {ShopsolAppColors.map((color, index) => (
-          <div
-            key={index}
-            className={"relative flex justify-center items-center w-48 h-48 m-2"}
-            style={{ backgroundColor: color }}>
-            <span className={"absolute text-center font-light text-white"}>{color}</span>
-          </div>
-        ))}
-      </div>
-      <div className="my-24 flex justify-center">
-        <div className="border-b border-gray-300 w-72" />
-      </div>
-      <div className="my-24 grid grid-cols-3 gap-4 justify-center">
-        <div className="flex flex-col items-center">
-          <Image
-            src={"/images/app/shopsol/shopsol_screenshot.gif"}
-            className="w-full"
-            width={1200}
-            height={1200}
-            alt="Shopsol App Screenshot GIF"
-          />
-          <p className="text-xs text-center mt-2">Screenshot GIF</p>
-        </div>
-        <div className="flex flex-col items-center">
-          <Image
-            src={"/images/app/shopsol/shopsol_screenshot_s1.jpg"}
-            className="w-full"
-            width={1200}
-            height={1200}
-            alt="Shopsol App Payment Screen"
-          />
-          <p className="text-xs text-center mt-2">Payment Screen</p>
-        </div>
-        <div className="flex flex-col items-center">
-          <Image
-            src={"/images/app/shopsol/shopsol_screenshot_s2.jpg"}
-            className="w-full"
-            width={1200}
-            height={1200}
-            alt="Shopsol App Employee List Screen"
-          />
-          <p className="text-xs text-center mt-2">Employee List Screen</p>
-        </div>
-        <div className="flex flex-col items-center">
-          <Image
-            src={"/images/app/shopsol/shopsol_screenshot_s3.jpg"}
-            className="w-full"
-            width={1200}
-            height={1200}
-            alt="Shopsol App Expiry Date Management Screen"
-          />
-          <p className="text-xs text-center mt-2">Expiry Date Management Screen</p>
-        </div>
-        <div className="flex flex-col items-center">
-          <Image
-            src={"/images/app/shopsol/shopsol_screenshot_s4.jpg"}
-            className="w-full"
-            width={1200}
-            height={1200}
-            alt="Shopsol App Payment Screen"
-          />
-          <p className="text-xs text-center mt-2">Payment Screen</p>
-        </div>
-        <div className="flex flex-col items-center">
-          <Image
-            src={"/images/app/shopsol/shopsol_screenshot_s5.jpg"}
-            className="w-full"
-            width={1200}
-            height={1200}
-            alt="Shopsol App Checklist Screen"
-          />
-          <p className="text-xs text-center mt-2">Checklist Screen</p>
-        </div>
-        <div className="flex flex-col items-center">
-          <Image
-            src={"/images/app/shopsol/shopsol_screenshot_s6.jpg"}
-            className="w-full"
-            width={1200}
-            height={1200}
-            alt="Daily Dashboard Screen"
-          />
-          <p className="text-xs text-center mt-2">Daily Dashboard Screen</p>
-        </div>
-        <div className="flex flex-col items-center">
-          <Image
-            src={"/images/app/shopsol/shopsol_screenshot_s7.jpg"}
-            className="w-full"
-            width={1200}
-            height={1200}
-            alt="Weekly Dashboard Screen"
-          />
-          <p className="text-xs text-center mt-2">Weekly Dashboard Screen</p>
-        </div>
-        <div className="flex flex-col items-center">
-          <Image
-            src={"/images/app/shopsol/shopsol_screenshot_s8.jpg"}
-            className="w-full"
-            width={1200}
-            height={1200}
-            alt="Monthly Dashboard Screen"
-          />
-          <p className="text-xs text-center mt-2">Monthly Dashboard Screen</p>
-        </div>
-      </div>
+      <TextBox
+        title={"About This Project"}
+        text={
+          "Shopsol is a Korean employee attendance tracking app. I worked for Shopsol for eight months as a Mobile Frontend Developer. During this time, I refactored the code from EXPO to React Native, set up the CI/CD pipeline with Fastlane, and redesigned the logo and all screen layouts. I particularly enjoyed designing and building a dashboard screen for visualizing employee status."
+        }
+      />
+      <GreyLine />
+      <TechnicalSheet
+        list={[
+          "RESTful API",
+          "React-Native",
+          "TypeScript",
+          "Styled-Components",
+          "Fastlane",
+          "Codepush",
+        ]}
+      />
+      <GreyLine />
+      <AboutColors
+        list={[
+          {
+            colorHex: "#2C6868",
+            textColorHex: "#FFF",
+          },
+          {
+            colorHex: "#E39A9C",
+            textColorHex: "#FFF",
+          },
+          {
+            colorHex: "#6BACAB",
+            textColorHex: "#FFF",
+          },
+        ]}
+      />
+      <GreyLine />
+      <ScreenShots />
     </div>
   );
 };

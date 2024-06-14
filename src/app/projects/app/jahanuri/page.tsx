@@ -1,11 +1,10 @@
 import React from "react";
 import dynamic from "next/dynamic";
 import { GithubIcon } from "@/components/Icons";
-import LongTermGains from "@/components/LongTermGains";
 import GreyLine from "@/components/GreyLine";
 import TechnicalSheet from "@/components/TechnicalSheet";
-import AboutThisProject from "@/components/AboutThisProject";
 import AboutColors from "@/components/AboutColors";
+import TextBox from "@/components/TextBox";
 
 const Image = dynamic(() => import("next/image"), { ssr: false });
 
@@ -91,7 +90,8 @@ const JahanuriAppPage = () => {
           </div>
         </div>
       </div>
-      <AboutThisProject
+      <TextBox
+        title={"About This Project"}
         text={
           "This mobile application is designed to manage the members of Jahanuri, a Korean alternative medicine center located in Seoul. Jahanuri contacted me via email to create a mobile app for both Android and iOS platforms. For this project, I used React-Native, Django, and Graphene."
         }
@@ -128,34 +128,28 @@ const JahanuriAppPage = () => {
           alt=""
         />
       </div>
-      <div className="my-24 flex flex-col text-center justify-center items-center">
-        <p className="text-4xl font-semibold mb-2.5">What Jahanuri Needs</p>
-        <p className="max-w-4xl">
-          This application is aimed at Jahanuri's customers and anyone interested in the Jahanuri
-          alternative medicine center. Typically, customers visit the center by appointment to get
-          information. However, due to the COVID-19 situation, Jahanuri decided to develop an
-          application to collect data from customers. The app includes features such as a checklist
-          form, survey form, report form, contact information, and a member application form.
-        </p>
-      </div>
+      <TextBox
+        title={"What Jahanuri Needs"}
+        text={
+          "This application is aimed at Jahanuri's customers and anyone interested in the Jahanuri alternative medicine center. Typically, customers visit the center by appointment to get information. However, due to the COVID-19 situation, Jahanuri decided to develop an application to collect data from customers. The app includes features such as a checklist form, survey form, report form, contact information, and a member application form."
+        }
+      />
       <GreyLine />
-      <div className="my-24 flex flex-col text-center justify-center items-center">
-        <p className="text-4xl font-semibold mb-2.5">Multi Select</p>
-        <p className="max-w-4xl">
-          In a few models, I used MultiSelectField from django-multiselectfield to select multiple
-          choices. MultiSelectField is essentially a CharField that stores the selected values as a
-          comma-separated string.
-        </p>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href={
-            "https://github.com/plusbeauxjours/Jahanuri-server/blob/854962257b3d993b376fe5fa6c17de22e2220dda/checklists/models.py#L290"
-          }
-          className="flex flex-col items-center mt-5">
-          <GithubIcon />
-        </a>
-      </div>
+      <TextBox
+        title={"Multi Select"}
+        text={
+          "In a few models, I used MultiSelectField from django-multiselectfield to select multiple choices. MultiSelectField is essentially a CharField that stores the selected values as a comma-separated string."
+        }
+      />
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href={
+          "https://github.com/plusbeauxjours/Jahanuri-server/blob/854962257b3d993b376fe5fa6c17de22e2220dda/checklists/models.py#L290"
+        }
+        className="flex flex-col items-center my-5">
+        <GithubIcon />
+      </a>
       <Codes />
       <GreyLine />
       <AboutColors
@@ -169,7 +163,8 @@ const JahanuriAppPage = () => {
             textColorHex: "#FFF",
           },
         ]}>
-        <p className="max-w-4xl">
+        <p className="text-4xl font-semibold mb-2.5">About Colors</p>
+        <p className="max-w-4xl mb-8">
           Co-founders of Jahanuri, Mrs. Kim Eun-Suk and Mr. Jang Jin-gi, have published a couple of
           books. They wanted to choose the application's main color from one of their&nbsp;
           <a
@@ -185,7 +180,8 @@ const JahanuriAppPage = () => {
       <GreyLine />
       <ScreenShots />
       <GreyLine />
-      <LongTermGains
+      <TextBox
+        title={"Long Term Gains"}
         text={
           "Through this project, I gained substantial experience with Django Admin and forms, utilizing various types to collect data from Jahanuri's customers. I'm currently learning data visualization techniques to better present customer health information and conditions using graphs and charts. The admin page for Jahanuri is scheduled for an update in September 2020."
         }
