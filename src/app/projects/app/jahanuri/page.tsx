@@ -119,7 +119,13 @@ const JahanuriAppPage = () => {
         ]}
       />
       <GreyLine />
-      <div className="flex justify-center">
+      <TextBox
+        title={"What Jahanuri Needs"}
+        text={
+          "This application is aimed at Jahanuri's customers and anyone interested in the Jahanuri alternative medicine center. Typically, customers visit the center by appointment to get information. However, due to the COVID-19 situation, Jahanuri decided to develop an application to collect data from customers. The app includes features such as a checklist form, survey form, report form, contact information, and a member application form."
+        }
+      />
+      <div className="flex justify-center mt-8">
         <Image
           src={"/images/app/jahanuri/jahanuri_diagram.jpg"}
           width={1200}
@@ -128,12 +134,6 @@ const JahanuriAppPage = () => {
           alt=""
         />
       </div>
-      <TextBox
-        title={"What Jahanuri Needs"}
-        text={
-          "This application is aimed at Jahanuri's customers and anyone interested in the Jahanuri alternative medicine center. Typically, customers visit the center by appointment to get information. However, due to the COVID-19 situation, Jahanuri decided to develop an application to collect data from customers. The app includes features such as a checklist form, survey form, report form, contact information, and a member application form."
-        }
-      />
       <GreyLine />
       <TextBox
         title={"Multi Select"}

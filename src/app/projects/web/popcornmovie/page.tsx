@@ -1,6 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import { GithubIcon, WebIcon } from "@/components/Icons";
+import GreyLine from "@/components/GreyLine";
+import AboutColors from "@/components/AboutColors";
+import TextBox from "@/components/TextBox";
+import TechnicalSheet from "@/components/TechnicalSheet";
 
 const PopcornMovieWebPage = () => {
   return (
@@ -35,51 +39,31 @@ const PopcornMovieWebPage = () => {
             </div>
           </div>
         </div>
-        <div className="my-24 flex justify-center">
-          <div className="w-4/5 text-center flex flex-col items-center">
-            <p className="text-4xl font-semibold mb-2.5">About this Project</p>
-            <div className="flex flex-row">
-              To practice the container and presentational design pattern, I spent two weeks coding
-              with React and the TMDb API. It took longer than expected because I focused on writing
-              clean code. This effort helped me understand the best practices for coding with class
-              components, even though hooks offer a more streamlined approach. I enjoyed working
-              with the TMDb API due to the vast amount of information available in the responses.
-            </div>
-          </div>
-        </div>
-        <div className="my-24 flex justify-center">
-          <div className="border-b border-gray-300 w-72" />
-        </div>
-        <div className="my-24 flex justify-center">
-          <div className="w-4/5 text-center flex flex-col items-center">
-            <p className="text-4xl font-semibold mb-2.5">Technical Sheet</p>
-            <ul className="list-disc">
-              <li>React</li>
-              <li>Axios</li>
-              <li>TypeScript</li>
-              <li>Styled-Components</li>
-              <li>Netlify</li>
-            </ul>
-          </div>
-        </div>
-        <div className="my-24 flex justify-center">
-          <div className="border-b border-gray-300 w-72" />
-        </div>
+        <TextBox
+          title={"About this Project"}
+          text={
+            "To practice the container and presentational design pattern, I spent two weeks coding with React and the TMDb API. It took longer than expected because I focused on writing clean code. This effort helped me understand the best practices for coding with class components, even though hooks offer a more streamlined approach. I enjoyed working with the TMDb API due to the vast amount of information available in the responses."
+          }
+        />
+        <GreyLine />
+        <TechnicalSheet list={["React", "Axios", "TypeScript", "Styled-Components", "Netlify"]} />
+        <GreyLine />
+        <AboutColors
+          list={[
+            {
+              colorHex: "#17171A",
+              textColorHex: "#FFF",
+            },
+          ]}
+        />
+        <GreyLine />
         <div className="flex justify-center">
-          <div className="relative flex justify-center items-center w-48 h-48 m-2 bg-black text-white">
-            <span className="absolute text-center font-light">#17171A</span>
-          </div>
-        </div>
-        <div className="my-24 flex justify-center">
-          <div className="border-b border-gray-300 w-72" />
-        </div>
-        <div className="my-24 flex justify-center">
           <Image
             src={"/images/web/popcorn_movie/popcorn_movie_screenshot.jpg"}
-            width={1200}
+            className="max-w-full"
+            width={800}
             height={1200}
-            alt="Movie Web Screenshot"
-            className="w-full max-w-4xl"
+            alt=""
           />
         </div>
       </div>

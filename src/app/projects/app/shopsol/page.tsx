@@ -5,8 +5,6 @@ import GreyLine from "@/components/GreyLine";
 import TechnicalSheet from "@/components/TechnicalSheet";
 import AboutColors from "@/components/AboutColors";
 
-const ShopsolAppColors = ["", "", ""];
-
 const ShopsolAppPage = () => {
   const ScreenShots = () => {
     const screenShotList = [

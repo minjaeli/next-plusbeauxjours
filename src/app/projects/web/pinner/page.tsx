@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon, WebIcon } from "@/components/Icons";
 import AboutColors from "@/components/AboutColors";
