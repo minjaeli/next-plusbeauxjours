@@ -27,7 +27,7 @@ const ArchitecturalWorksBox: React.FunctionComponent<any> = () => (
           <div className="flex flex-col items-center h-64 overflow-hidden mt-8">
             <Image
               src={image}
-              alt="Description"
+              alt=""
               width="1200"
               height="400"
               className={`w-full max-w-3xl hover:scale-110 transition-transform duration-1000`}

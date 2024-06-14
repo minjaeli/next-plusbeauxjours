@@ -1,8 +1,34 @@
 import React from "react";
 import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
+import GreyLine from "@/components/GreyLine";
+import TextBox from "@/components/TextBox";
 
 const PewsomeWeather: React.FunctionComponent<any> = () => {
+  const ScreenShots = () => {
+    const screenShotList = [
+      "/images/app/pewsome/pewsome_screenshot_s1.jpg",
+      "/images/app/pewsome/pewsome_screenshot_s2.jpg",
+      "/images/app/pewsome/pewsome_screenshot_s3.jpg",
+      "/images/app/pewsome/pewsome_screenshot_s4.jpg",
+      "/images/app/pewsome/pewsome_screenshot_s5.jpg",
+    ];
+    return (
+      <div className="flex justify-center w-full">
+        {screenShotList.map((item: string, index: number) => (
+          <Image
+            key={index}
+            src={item}
+            width={300}
+            height={650}
+            className="max-w-xs w-full mb-8 md:mr-8 last:mr-0"
+            alt=""
+          />
+        ))}
+      </div>
+    );
+  };
+
   return (
     <div className="bg-gray-100 mb-72">
       <div className="bg-gray-100 flex justify-around h-100 border-b border-gray-300">
@@ -24,57 +50,14 @@ const PewsomeWeather: React.FunctionComponent<any> = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center my-24">
-        <div className="text-center flex flex-col items-center">
-          <p className="font-medium mb-2">About this Project</p>
-          <div className="w-4/5 leading-8 text-center">
-            My first project with React Native was a simple weather application. Through this
-            project, I learned how to deploy a mobile application on both the Apple App Store and
-            Google Play Store. Additionally, I gained an understanding of the component lifecycle in
-            React Native. I used the OpenWeatherMap API to fetch weather information.
-          </div>
-        </div>
-      </div>
-      <div className="flex justify-center my-8">
-        <div className="border-b border-gray-300 w-72" />
-      </div>
-      <div className="flex justify-center mt-48">
-        <Image
-          src={"/images/app/pewsome/pewsome_screenshot_s1.jpg"}
-          width={400}
-          height={1200}
-          className={"max-w-xs w-full"}
-          alt="screenshot 1"
-        />
-        <Image
-          src={"/images/app/pewsome/pewsome_screenshot_s2.jpg"}
-          width={400}
-          height={1200}
-          className={"max-w-xs w-full"}
-          alt="screenshot 2"
-        />
-        <Image
-          src={"/images/app/pewsome/pewsome_screenshot_s3.jpg"}
-          width={400}
-          height={1200}
-          className={"max-w-xs w-full"}
-          alt="screenshot 3"
-        />
-        <Image
-          src={"/images/app/pewsome/pewsome_screenshot_s4.jpg"}
-          width={400}
-          height={1200}
-          className={"max-w-xs w-full"}
-          alt="screenshot 4"
-        />
-        <Image
-          src={"/images/app/pewsome/pewsome_screenshot_s5.jpg"}
-          width={400}
-          height={1200}
-          className={"max-w-xs w-full"}
-          alt="screenshot 5"
-        />
-      </div>
+      <TextBox
+        title={"About this Project"}
+        text={
+          "My first project with React Native was a simple weather application. Through this project, I learned how to deploy a mobile application on both the Apple App Store and Google Play Store. Additionally, I gained an understanding of the component lifecycle in React Native. I used the OpenWeatherMap API to fetch weather information."
+        }
+      />
+      <GreyLine />
+      <ScreenShots />
     </div>
   );
 };

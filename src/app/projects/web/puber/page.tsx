@@ -116,14 +116,14 @@ const PuberWebPage: React.FunctionComponent<any> = () => {
             className="max-w-full mb-4"
             width={800}
             height={1200}
-            alt="Subscription Diagram"
+            alt=""
           />
           <Image
             src={"/images/web/puber/puber_Subscription_Code.jpg"}
             className="max-w-full mb-4"
             width={800}
             height={1200}
-            alt="Subscription Code"
+            alt=""
           />
         </div>
         <GreyLine />
@@ -134,14 +134,14 @@ const PuberWebPage: React.FunctionComponent<any> = () => {
             className="max-w-full mb-4"
             width={800}
             height={1200}
-            alt="Puber Screenshot"
+            alt=""
           />
           <Image
             src={"/images/web/puber/puber_video.gif"}
             className="max-w-full mb-4"
             width={800}
             height={1200}
-            alt="Puber Video"
+            alt=""
           />
         </div>
         <GreyLine />

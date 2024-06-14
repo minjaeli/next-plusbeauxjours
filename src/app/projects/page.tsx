@@ -11,7 +11,7 @@ const ProjectsPage: React.FunctionComponent<any> = () => {
               <img
                 src={"/images/thumbnails/app_thumbnail_shopsol.jpg"}
                 className="w-full max-w-2xl"
-                alt="Shopsol"
+                alt=""
               />
               <div className="absolute inset-0 flex flex-col justify-center items-center bg-opacity-70 text-black">
                 <div className="text-xl font-bold mt-8">Shopsol</div>
@@ -27,7 +27,7 @@ const ProjectsPage: React.FunctionComponent<any> = () => {
               <img
                 src={"/images/thumbnails/app_thumbnail_sportup.jpg"}
                 className="w-full max-w-2xl"
-                alt="SportUp"
+                alt=""
               />
               <div className="absolute inset-0 flex flex-col justify-center items-center bg-opacity-70 text-black">
                 <div className="text-xl font-bold mt-8">SportUp</div>
@@ -42,7 +42,7 @@ const ProjectsPage: React.FunctionComponent<any> = () => {
               <img
                 src={"/images/thumbnails/app_thumbnail_airbnp.jpg"}
                 className="w-full max-w-2xl"
-                alt="Airbnp"
+                alt=""
               />
               <div className="absolute inset-0 flex flex-col justify-center items-center bg-opacity-70 text-black">
                 <div className="text-xl font-bold mt-8">Airbnp</div>
@@ -57,7 +57,7 @@ const ProjectsPage: React.FunctionComponent<any> = () => {
               <img
                 src={"/images/thumbnails/app_thumbnail_jahanuri.jpg"}
                 className="w-full max-w-2xl"
-                alt="Jahanuri"
+                alt=""
               />
               <div className="absolute inset-0 flex flex-col justify-center items-center bg-opacity-70 text-black">
                 <div className="text-xl font-bold mt-8">Jahanuri</div>
@@ -73,7 +73,7 @@ const ProjectsPage: React.FunctionComponent<any> = () => {
               <img
                 src={"/images/thumbnails/app_thumbnail_pinner.jpg"}
                 className="w-full max-w-2xl"
-                alt="Pinner"
+                alt=""
               />
               <div className="absolute inset-0 flex flex-col justify-center items-center bg-opacity-70 text-black">
                 <div className="text-xl font-bold mt-8">Pinner</div>
@@ -88,7 +88,7 @@ const ProjectsPage: React.FunctionComponent<any> = () => {
               <img
                 src={"/images/thumbnails/web_thumbnail_pinner.jpg"}
                 className="w-full max-w-2xl"
-                alt="Pinner"
+                alt=""
               />
               <div className="absolute inset-0 flex flex-col justify-center items-center bg-opacity-70 text-black">
                 <div className="text-xl font-bold mt-8">Pinner</div>
@@ -103,7 +103,7 @@ const ProjectsPage: React.FunctionComponent<any> = () => {
               <img
                 src={"/images/thumbnails/web_thumbnail_puber.jpg"}
                 className="w-full max-w-2xl"
-                alt="Puber"
+                alt=""
               />
               <div className="absolute inset-0 flex flex-col justify-center items-center bg-opacity-70 text-black">
                 <div className="text-xl font-bold mt-8">Puber</div>
@@ -118,7 +118,7 @@ const ProjectsPage: React.FunctionComponent<any> = () => {
               <img
                 src={"/images/thumbnails/web_thumbnail_airbnp.jpg"}
                 className="w-full max-w-2xl"
-                alt="Airbnp"
+                alt=""
               />
               <div className="absolute inset-0 flex flex-col justify-center items-center bg-opacity-70 text-black">
                 <div className="text-xl font-bold mt-8">Airbnp</div>
@@ -131,7 +131,7 @@ const ProjectsPage: React.FunctionComponent<any> = () => {
               <img
                 src={"/images/thumbnails/web_thumbnail_popcorn_movie.jpg"}
                 className="w-full max-w-2xl"
-                alt="Movie"
+                alt=""
               />
               <div className="absolute inset-0 flex flex-col justify-center items-center bg-opacity-70 text-black">
                 <div className="text-xl font-bold mt-8">Popcorn Movie</div>
@@ -146,7 +146,7 @@ const ProjectsPage: React.FunctionComponent<any> = () => {
               <img
                 src={"/images/thumbnails/app_thumbnail_popcorn_movie.jpg"}
                 className="w-full max-w-2xl"
-                alt="Movie"
+                alt=""
               />
               <div className="absolute inset-0 flex flex-col justify-center items-center bg-opacity-70 text-black">
                 <div className="text-xl font-bold mt-8">Movie</div>
@@ -159,7 +159,7 @@ const ProjectsPage: React.FunctionComponent<any> = () => {
               <img
                 src={"/images/thumbnails/app_thumbnail_pitty.jpg"}
                 className="w-full max-w-2xl"
-                alt="Kitty To Do"
+                alt=""
               />
               <div className="absolute inset-0 flex flex-col justify-center items-center bg-opacity-70 text-black">
                 <div className="text-xl font-bold mt-8">Kitty To Do</div>
@@ -172,7 +172,7 @@ const ProjectsPage: React.FunctionComponent<any> = () => {
               <img
                 src={"/images/thumbnails/app_thumbnail_pewsome.jpg"}
                 className="w-full max-w-2xl"
-                alt="Kitty To Do"
+                alt=""
               />
               <div className="absolute inset-0 flex flex-col justify-center items-center bg-opacity-70 text-black">
                 <div className="text-xl font-bold mt-8">Pewsome Weather</div>

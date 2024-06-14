@@ -25,7 +25,7 @@ const PortfolioBox: React.FunctionComponent<any> = () => (
               width="400"
               height="400"
               className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-2000"
-              alt="Shopsol-App"
+              alt=""
             />
           </div>
         </Link>
@@ -36,7 +36,7 @@ const PortfolioBox: React.FunctionComponent<any> = () => (
               width="400"
               height="400"
               className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-2000"
-              alt="SportUp-App"
+              alt=""
             />
           </div>
         </Link>
@@ -47,7 +47,7 @@ const PortfolioBox: React.FunctionComponent<any> = () => (
               width="400"
               height="400"
               className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-2000"
-              alt="Jahanuri-App"
+              alt=""
             />
           </div>
         </Link>
@@ -58,7 +58,7 @@ const PortfolioBox: React.FunctionComponent<any> = () => (
               width="400"
               height="400"
               className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-2000"
-              alt="Pinner-App"
+              alt=""
             />
           </div>
         </Link>
@@ -69,7 +69,7 @@ const PortfolioBox: React.FunctionComponent<any> = () => (
               width="400"
               height="400"
               className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-2000"
-              alt="Pinner-Web"
+              alt=""
             />
           </div>
         </Link>
@@ -80,7 +80,7 @@ const PortfolioBox: React.FunctionComponent<any> = () => (
               width="400"
               height="400"
               className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-2000"
-              alt="Puber-Web"
+              alt=""
             />
           </div>
         </Link>

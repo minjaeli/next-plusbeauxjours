@@ -10,7 +10,7 @@ const Testimonial: React.FunctionComponent<any> = () => (
         className="rounded-full mb-8 overflow-hidden"
         width={96}
         height={96}
-        alt="Nicolás Serrano Arévalo"
+        alt=""
       />
       <div className="flex flex-col items-center mb-12 text-center">
         <p className="w-4/5 leading-8 mb-8">

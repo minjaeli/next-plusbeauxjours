@@ -19,7 +19,7 @@ const MainBox: React.FunctionComponent<any> = () => (
         width="400"
         height="400"
         className={"w-full max-w-3xl"}
-        alt="Main"
+        alt=""
       />
     </div>
   </div>

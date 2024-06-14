@@ -45,7 +45,7 @@ const AirbnpWebPage: React.FunctionComponent<any> = () => {
           width={800}
           height={1200}
           className="max-w-full"
-          alt="Airbnp web alt"
+          alt=""
         />
       </div>
       <GreyLine />
@@ -55,14 +55,14 @@ const AirbnpWebPage: React.FunctionComponent<any> = () => {
           width={800}
           height={1200}
           className="max-w-full"
-          alt="Airbnp web screenshot"
+          alt=""
         />
         <Image
           src={"/images/web/airbnp/airbnp_video.gif"}
           width={800}
           height={1200}
           className="max-w-full"
-          alt="Airbnp web video"
+          alt=""
         />
       </div>
       <GreyLine />
