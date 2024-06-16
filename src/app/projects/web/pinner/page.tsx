@@ -5,47 +5,23 @@ import AboutColors from "@/components/AboutColors";
 import GreyLine from "@/components/GreyLine";
 import TextBox from "@/components/TextBox";
 import TechnicalSheet from "@/components/TechnicalSheet";
+import HeaderBox from "@/components/HeaderBox";
 
 const PinnerWebColors = ["#EDEDED", "#E2E2E2", "#318CEE", "#1E1E1E", "#161616"];
 
 const PinnerWebPage: React.FunctionComponent<any> = () => {
   return (
-    <div className="bg-gray-100 mb-80">
-      <div className="bg-gray-100 flex justify-around h-96 border-b border-gray-300 mb-8 md:flex-col md:items-center md:h-auto md:mb-20">
-        <div className="w-96 h-96 flex flex-col justify-center items-center mb-8 md:mb-0">
-          <div className="text-4xl font-semibold mb-2 leading-none">Pinner</div>
-          <div className="flex w-full justify-between flex-row border-t border-gray-300 mt-2">
-            <div className="mt-1 text-base">24th Aug 2019 - 18th Dec 2019</div>
-            <div className="mt-1 text-base">4 MONTHS</div>
-          </div>
-          <div className="flex w-48 justify-between mt-16">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href={"https://master--pinner.netlify.app/"}
-              className="flex flex-col items-center">
-              <WebIcon />
-              <div className="text-xs text-center h-2">WEBSITE</div>
-            </a>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href={"https://github.com/plusbeauxjours/pinner-frontend"}
-              className="flex flex-col items-center">
-              <GithubIcon />
-              <div className="text-xs text-center h-2">CLIENT</div>
-            </a>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href={"https://github.com/plusbeauxjours/pinner-backend"}
-              className="flex flex-col items-center">
-              <GithubIcon />
-              <div className="text-xs text-center h-2">SERVER</div>
-            </a>
-          </div>
-        </div>
-      </div>
+    <div className="bg-gray-100 mb-72">
+      <HeaderBox
+        title={"Pinner"}
+        date={"24th Aug 2019 - 18th Dec 2019"}
+        duration={"4 MONTHS"}
+        git={[
+          { url: "https://master--pinner.netlify.app/", text: "WEBSITE" },
+          { url: "https://github.com/plusbeauxjours/pinner-frontend", text: "CLIENT" },
+          { url: "https://github.com/plusbeauxjours/pinner-backend", text: "SERVER" },
+        ]}
+      />
       <TextBox
         title={"About this Project"}
         text={
@@ -77,7 +53,7 @@ const PinnerWebPage: React.FunctionComponent<any> = () => {
         <Image
           src={"/images/web/pinner/pinner_alts.jpg"}
           className="max-w-full mb-8"
-          width={800}
+          width={720}
           height={1200}
           alt=""
         />

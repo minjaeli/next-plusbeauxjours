@@ -2,34 +2,20 @@ import React from "react";
 
 import Image from "next/image";
 
-import { GithubIcon } from "@/components/Icons";
 import TextBox from "@/components/TextBox";
 import GreyLine from "@/components/GreyLine";
 import TechnicalSheet from "@/components/TechnicalSheet";
+import HeaderBox from "@/components/HeaderBox";
 
 const AirbnpWebPage: React.FunctionComponent<any> = () => {
   return (
     <div className="bg-gray-100 mb-72">
-      <div className="bg-bgColor flex justify-around h-96 border-b border-gray-300 md:flex-col md:items-center md:h-auto">
-        <div className="w-100 h-100 flex flex-col justify-center items-center md:mb-8">
-          <div className="text-4xl font-semibold mb-2.5">Airbnp</div>
-          <div className="flex w-full justify-between flex-row border-t border-gray-300 mt-1.5 text-sm">
-            <div>5th Feb 2020 - 9th Mar 2020</div>
-            <div>1 MONTH</div>
-          </div>
-          <div className="flex w-40 justify-center mt-17.5">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href={"https://github.com/plusbeauxjours/airbnp"}>
-              <div className="flex flex-col items-center">
-                <GithubIcon />
-                <div className="text-xs text-center h-2">GITHUB</div>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
+      <HeaderBox
+        title={"Airbnp"}
+        date={"5th Feb 2020 - 9th Mar 2020"}
+        duration={"3 MONTHS"}
+        git={[{ url: "https://github.com/plusbeauxjours/airbnp", text: "CLIENT" }]}
+      />
       <TextBox
         title={"About this Project"}
         text={

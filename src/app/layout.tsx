@@ -22,7 +22,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
         <script src="https://cdn.websitepolicies.io/lib/cconsent/cconsent.min.js" defer />
       </head>
-      <body>
+      <body className="">
         <main
           className="w-full max-w-[1160px] mx-auto antialiased"
           style={{ minHeight: "calc(100vh - 520px)" }}>

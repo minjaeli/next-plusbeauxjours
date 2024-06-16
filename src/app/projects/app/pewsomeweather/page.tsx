@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import { GithubIcon } from "@/components/Icons";
 import GreyLine from "@/components/GreyLine";
 import TextBox from "@/components/TextBox";
+import HeaderBox from "@/components/HeaderBox";
 
 const PewsomeWeather: React.FunctionComponent<any> = () => {
   const ScreenShots = () => {
@@ -31,25 +31,12 @@ const PewsomeWeather: React.FunctionComponent<any> = () => {
 
   return (
     <div className="bg-gray-100 mb-72">
-      <div className="bg-gray-100 flex justify-around h-100 border-b border-gray-300">
-        <div className="w-100 h-100 flex flex-col justify-center items-center">
-          <div className="text-3xl font-semibold mb-2">Pewsome Weather</div>
-          <div className="flex w-full justify-between border-t border-gray-300 mt-2">
-            <div className="mt-2 text-sm">30th Nov 2017 - 5th Dec 2017</div>
-            <div className="mt-2 text-sm">1 WEEK</div>
-          </div>
-          <div className="flex w-50 justify-between mt-12">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href={"https://github.com/plusbeauxjours/awesome-weather"}
-              className="cursor-pointer flex flex-col items-center">
-              <GithubIcon />
-              <div className="text-xs mt-2">GITHUB</div>
-            </a>
-          </div>
-        </div>
-      </div>
+      <HeaderBox
+        title={"Pewsome Weather"}
+        date={"30th Nov 2017 - 5th Dec 2017"}
+        duration={"1 WEEK"}
+        git={[{ url: "https://github.com/plusbeauxjours/awesome-weather", text: "CLIENT" }]}
+      />
       <TextBox
         title={"About this Project"}
         text={

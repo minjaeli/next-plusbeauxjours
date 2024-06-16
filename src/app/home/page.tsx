@@ -10,7 +10,7 @@ import GreyLine from "@/components/GreyLine";
 
 const HomePage: React.FunctionComponent<any> = () => {
   return (
-    <div className="bg-gray-100">
+    <div className="bg-bgColor">
       <MainBox />
       <div className="flex flex-col items-center">
         <ProfileBox />

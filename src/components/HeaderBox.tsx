@@ -1,14 +1,14 @@
 import React from "react";
-import { GithubIcon } from "./Icons";
+import { GithubIcon, WebIcon } from "./Icons";
 
 interface IProps {
   title: string;
   date: string;
   duration: string;
-  git: { url: string; text: string }[];
+  git?: { url: string; text: string }[];
 }
 
-const HeaderBox: React.FunctionComponent<IProps> = ({ title, date, duration, git }) => (
+const HeaderBox: React.FunctionComponent<IProps> = ({ title, date, duration, git = [] }) => (
   <div className="flex flex-col justify-center items-center border-b border-gray-300 mt-24 mb-8 pb-8">
     <div className="text-4xl font-semibold mb-4">{title}</div>
     <div className="flex w-96 justify-between border-t border-gray-300 mt-2 pt-2">
@@ -22,7 +22,7 @@ const HeaderBox: React.FunctionComponent<IProps> = ({ title, date, duration, git
           rel="noopener noreferrer"
           href={item.url}
           className="cursor-pointer flex flex-col items-center mx-6">
-          <GithubIcon />
+          {item.text === "WEBSITE" ? <WebIcon /> : <GithubIcon />}
           <div className="text-xs mt-2">{item.text}</div>
         </a>
       ))}

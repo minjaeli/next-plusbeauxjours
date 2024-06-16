@@ -4,6 +4,7 @@ import TextBox from "@/components/TextBox";
 import GreyLine from "@/components/GreyLine";
 import TechnicalSheet from "@/components/TechnicalSheet";
 import AboutColors from "@/components/AboutColors";
+import HeaderBox from "@/components/HeaderBox";
 
 const ShopsolAppPage = () => {
   const ScreenShots = () => {
@@ -40,15 +41,7 @@ const ShopsolAppPage = () => {
   };
   return (
     <div className="bg-gray-100 mb-72">
-      <div className="flex justify-around h-96 bg-bgColor border-b border-gray-300">
-        <div className="w-100 h-100 flex flex-col justify-center items-center">
-          <div className="text-4xl font-semibold mb-2.5 leading-10 p-2.5">Shopsol</div>
-          <div className="flex w-full justify-between border-t border-gray-300">
-            <div className="mt-1.5 text-sm">8th Jul 2020 - 27th Feb 2021</div>
-            <div className="mt-1.5 text-sm">8 MONTHS</div>
-          </div>
-        </div>
-      </div>
+      <HeaderBox title={"Shopsol"} date={"8th Jul 2020 - 27th Feb 2021"} duration={"8 MONTHS"} />
       <TextBox
         title={"About This Project"}
         text={

@@ -2,11 +2,11 @@ import React from "react";
 
 import Image from "next/image";
 
-import { GithubIcon } from "@/components/Icons";
 import TechnicalSheet from "@/components/TechnicalSheet";
 import AboutColors from "@/components/AboutColors";
 import GreyLine from "@/components/GreyLine";
 import TextBox from "@/components/TextBox";
+import HeaderBox from "@/components/HeaderBox";
 
 const PopcornMoviePage: React.FunctionComponent<any> = () => {
   const ScreenShots = () => {
@@ -35,25 +35,12 @@ const PopcornMoviePage: React.FunctionComponent<any> = () => {
 
   return (
     <div className="bg-gray-100 mb-72">
-      <div className="bg-gray-100 flex justify-around h-100 border-b border-gray-300 flex-col md:flex-row items-center md:h-100">
-        <div className="w-100 h-100 flex flex-col justify-center items-center mb-8 md:mb-0">
-          <div className="text-4xl font-semibold mb-4">Popcorn Movie</div>
-          <div className="flex w-full justify-between border-t border-gray-300 mt-2 pt-2">
-            <div className="text-sm">14th Mar 2019 - 19th Mar 2019</div>
-            <div className="text-sm">1 WEEK</div>
-          </div>
-          <div className="flex w-50 justify-between mt-12">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href={"https://github.com/plusbeauxjours/movie-app"}
-              className="cursor-pointer flex flex-col items-center">
-              <GithubIcon />
-              <div className="text-xs mt-2">GITHUB</div>
-            </a>
-          </div>
-        </div>
-      </div>
+      <HeaderBox
+        title={"Popcorn Movie"}
+        date={"14th Mar 2019 - 19th Mar 2019"}
+        duration={"1 WEEK"}
+        git={[{ url: "https://github.com/plusbeauxjours/movie-app", text: "CLIENT" }]}
+      />
       <TextBox
         title={"About this Project"}
         text={
