@@ -6,19 +6,23 @@ import ArchitecturalWorksBox from "@/components/ArchitecturalWorksBox";
 import Footer from "@/components/Footer";
 import TestimonialBox from "@/components/TesimonialBox";
 import PortfolioBox from "@/components/PortfolioBox";
+import GreyLine from "@/components/GreyLine";
 
 const HomePage: React.FunctionComponent<any> = () => {
   return (
-      <div className="bg-gray-100">
-        <MainBox />
-        <div className="flex flex-col items-center">
-          <ProfileBox />
-        </div>
-          <PortfolioBox />
-        <ArchitecturalWorksBox />
-        <TestimonialBox />
-        <Footer />
+    <div className="bg-gray-100">
+      <MainBox />
+      <div className="flex flex-col items-center">
+        <ProfileBox />
       </div>
+      <GreyLine />
+      <PortfolioBox />
+      <GreyLine />
+      <ArchitecturalWorksBox />
+      <GreyLine />
+      <TestimonialBox />
+      <Footer />
+    </div>
   );
 };
 
