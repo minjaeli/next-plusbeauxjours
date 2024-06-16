@@ -3,7 +3,9 @@ import React from "react";
 import Image from "next/image";
 import TextBox from "./TextBox";
 
-const MainBox: React.FunctionComponent<any> = () => (
+interface IProps {}
+
+const MainBox: React.FunctionComponent<IProps> = () => (
   <div className="bg-gray-100 mb-1 pt-24">
     <TextBox
       title={"Fullstack Developer, Architecture Designer"}

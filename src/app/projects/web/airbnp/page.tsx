@@ -9,7 +9,7 @@ import TechnicalSheet from "@/components/TechnicalSheet";
 
 const AirbnpWebPage: React.FunctionComponent<any> = () => {
   return (
-    <div className="bg-bgColor mb-72">
+    <div className="bg-gray-100 mb-72">
       <div className="bg-bgColor flex justify-around h-96 border-b border-gray-300 md:flex-col md:items-center md:h-auto">
         <div className="w-100 h-100 flex flex-col justify-center items-center md:mb-8">
           <div className="text-4xl font-semibold mb-2.5">Airbnp</div>

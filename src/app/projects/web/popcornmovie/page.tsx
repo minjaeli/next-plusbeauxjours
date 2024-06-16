@@ -8,7 +8,7 @@ import TechnicalSheet from "@/components/TechnicalSheet";
 
 const PopcornMovieWebPage = () => {
   return (
-    <div className="bg-bgColor mb-72">
+    <div className="bg-gray-100 mb-72">
       <div className="max-w-screen-xl mx-auto">
         <div className="bg-bgColor flex flex-col lg:flex-row justify-around h-96 border-b border-borderColor lg:h-[830px]">
           <div className="flex flex-col justify-center items-center w-full lg:w-1/3 h-full">

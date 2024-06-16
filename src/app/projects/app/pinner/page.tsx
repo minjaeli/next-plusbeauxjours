@@ -7,6 +7,7 @@ import GreyLine from "@/components/GreyLine";
 import { GithubIcon } from "@/components/Icons";
 import TechnicalSheet from "@/components/TechnicalSheet";
 import AboutColors from "@/components/AboutColors";
+import HeaderBox from "@/components/HeaderBox";
 
 const PinnerAppPage: React.FunctionComponent<any> = () => {
   const ScreenShots = () => {
@@ -34,33 +35,15 @@ const PinnerAppPage: React.FunctionComponent<any> = () => {
 
   return (
     <div className="bg-gray-100 mb-72">
-      <div className="bg-gray-100 flex justify-around h-100 border-b border-gray-300">
-        <div className="w-100 h-100 flex flex-col justify-center items-center">
-          <div className="text-4xl font-semibold mb-4">Pinner</div>
-          <div className="flex w-full justify-between border-t border-gray-300 mt-2 pt-2">
-            <div className="text-sm">6th Sep 2019 - 14th Dec 2019</div>
-            <div className="text-sm">3 MONTHS</div>
-          </div>
-          <div className="flex w-64 justify-between mt-12">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href={"https://github.com/plusbeauxjours/pinner-app"}
-              className="cursor-pointer flex flex-col items-center">
-              <GithubIcon />
-              <div className="text-xs mt-2">CLIENT</div>
-            </a>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href={"https://github.com/plusbeauxjours/pinner-backend"}
-              className="cursor-pointer flex flex-col items-center">
-              <GithubIcon />
-              <div className="text-xs mt-2">SERVER</div>
-            </a>
-          </div>
-        </div>
-      </div>
+      <HeaderBox
+        title={"Pinner"}
+        date={"6th Sep 2019 - 14th Dec 2019"}
+        duration={"3 MONTHS"}
+        git={[
+          { url: "https://github.com/plusbeauxjours/pinner-app", text: "CLIENT" },
+          { url: "https://github.com/plusbeauxjours/pinner-backend", text: "SERVER" },
+        ]}
+      />
       <TextBox
         title={"About This Project"}
         text={

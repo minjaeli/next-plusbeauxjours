@@ -8,7 +8,7 @@ import React from "react";
 
 const PuberWebPage: React.FunctionComponent<any> = () => {
   return (
-    <div className="bg-gray-100 mb-80">
+    <div className="bg-gray-100 mb-72">
       <div className="max-w-7xl mx-auto p-4">
         <div className="bg-gray-100 flex justify-around h-100 border-b border-gray-300 sm:flex-col sm:items-center sm:h-auto">
           <div className="w-100 h-100 flex flex-col justify-center items-center sm:mb-8">

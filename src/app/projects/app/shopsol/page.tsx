@@ -39,7 +39,7 @@ const ShopsolAppPage = () => {
     );
   };
   return (
-    <div className="bg-bgColor mb-72">
+    <div className="bg-gray-100 mb-72">
       <div className="flex justify-around h-96 bg-bgColor border-b border-gray-300">
         <div className="w-100 h-100 flex flex-col justify-center items-center">
           <div className="text-4xl font-semibold mb-2.5 leading-10 p-2.5">Shopsol</div>

@@ -7,6 +7,7 @@ import AboutColors from "@/components/AboutColors";
 import GreyLine from "@/components/GreyLine";
 import TechnicalSheet from "@/components/TechnicalSheet";
 import TextBox from "@/components/TextBox";
+import HeaderBox from "@/components/HeaderBox";
 
 const AirbnpAppPage: React.FunctionComponent<any> = () => {
   const ScreenShots = () => {
@@ -34,33 +35,15 @@ const AirbnpAppPage: React.FunctionComponent<any> = () => {
 
   return (
     <div className="bg-gray-100 mb-72">
-      <div className="bg-gray-100 flex justify-around h-100 border-b border-gray-300 flex-col md:flex-row items-center md:h-100">
-        <div className="w-100 h-100 flex flex-col justify-center items-center mb-8 md:mb-0">
-          <div className="text-4xl font-semibold mb-4">Airbnp</div>
-          <div className="flex w-full justify-between border-t border-gray-300 mt-2 pt-2">
-            <div className="text-sm">1st Jun 2020 - 28th Jun 2020</div>
-            <div className="text-sm">4 WEEKS</div>
-          </div>
-          <div className="flex w-50 justify-between mt-12">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href={"https://github.com/plusbeauxjours/airbnp-app"}
-              className="cursor-pointer flex flex-col items-center">
-              <GithubIcon />
-              <div className="text-xs mt-2">CLIENT</div>
-            </a>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href={"https://github.com/plusbeauxjours/airbnp-api"}
-              className="cursor-pointer flex flex-col items-center">
-              <GithubIcon />
-              <div className="text-xs mt-2">SERVER</div>
-            </a>
-          </div>
-        </div>
-      </div>
+      <HeaderBox
+        title={"Airbnp"}
+        date={"1st Jun 2020 - 28th Jun 2020"}
+        duration={"4 WEEKS"}
+        git={[
+          { url: "https://github.com/plusbeauxjours/airbnp-app", text: "CLIENT" },
+          { url: "https://github.com/plusbeauxjours/airbnp-api", text: "SERVER" },
+        ]}
+      />
       <TextBox
         title={"About this Project"}
         text={
