@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Freelancer specializing in Fullstack development using React, React-Native, Flutter, Django, Langchain, NestJS, and NodeJS. Available for projects in Korean.",
 };
-      
+
 const Home = ({}: Props) => {
   return <HomePage />;
 };
