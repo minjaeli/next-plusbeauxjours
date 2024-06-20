@@ -27,7 +27,7 @@ const TestimonialList: ITestimonial[] = [
     name: "MinJeong Kim",
     position: "Application Development Senior Analyst, Accenture",
     text: `"Minjae possesses a warm leadership style. His approachable demeanor encourages others to open up and share their thoughts and ideas. Instead of pointing out flaws or criticizing, Minjae shares his own experiences and insights, empowering others to overcome challenges and find their own solutions. <br/><br/> Minjae has a remarkable ability to articulate complex technical concepts and problems in his own words. While acquiring knowledge is relatively easy, truly internalizing it and making it one's own is a challenging task. Minjae excels at this by effectively communicating his knowledge to others in a way that is easy to understand. Even when collaborating with colleagues from different fields, Minjae's exceptional ability to convey technical ideas and communicate clearly earns him recognition and praise from everyone he works with."`,
-    photo: "/images/etc/minjeong_kim.jpg",
+    photo: "/images/etc/minjeong_kim.jpeg",
   },
 ];
 
@@ -40,13 +40,16 @@ const Testimonial: React.FunctionComponent<any> = () => (
     className={"h-[800px] w-full rounded-[8px]"}>
     {TestimonialList.map((item: ITestimonial, index: number) => (
       <SwiperSlide key={index}>
-        <Image
-          src={item.photo}
-          className="rounded-full mb-8 overflow-hidden"
-          width={96}
-          height={96}
-          alt=""
-        />
+        <div className="flex flex-col items-center mt-16 text-center">
+          <Image
+            src={item.photo}
+            className="rounded-full mb-8 overflow-hidden self-center"
+            width={96}
+            height={96}
+            alt=""
+            objectFit="cover"
+          />
+        </div>
         <div className="flex flex-col items-center mb-12 text-center">
           <p className="w-4/5 leading-8 mb-8" dangerouslySetInnerHTML={{ __html: item.text }}></p>
         </div>
