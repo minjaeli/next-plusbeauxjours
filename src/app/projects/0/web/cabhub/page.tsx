@@ -87,7 +87,7 @@ const CabHubWebPage: React.FunctionComponent<any> = () => {
       </div>
       <div className="my-24 flex flex-col justify-center items-center">
         <Image
-          src={"/images/web/cabhub/cabhub_Subscription.gif"}
+          src={"/images/web/cabhub/cabhub_subscription.gif"}
           className="max-w-full mb-4"
           width={800}
           height={1200}
