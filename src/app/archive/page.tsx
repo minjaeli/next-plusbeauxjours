@@ -1,11 +1,12 @@
 import { Metadata } from "next";
+import Link from "next/link";
 
 type Props = {};
 
 export const metadata: Metadata = {
   title: "plusbeauxjours",
   description:
-    "Freelancer specializing in Fullstack development using React, React-Native, Flutter,BE.dj Langchain, NestJS, and NodeJS. Available for projects in Korean.",
+    "Freelancer specializing in Fullstack development using React, React-Native, Flutter, BE.dj Langchain, NestJS, and NodeJS. Available for projects in Korean.",
 };
 
 enum Platform {
@@ -51,11 +52,36 @@ enum BE {
 
 const Projects = [
   {
+    name: "Shopsol",
+    platforms: [Platform.ios, Platform.android],
+    year: "2021",
+    tools: [
+      { type: Layer.FE, name: FE.rn },
+      { type: Layer.FE, name: FE.ts },
+      { type: Layer.FE, name: FE.sc },
+      { type: Layer.FE, name: FE.fastlane },
+      { type: Layer.FE, name: FE.codepush },
+    ],
+    link: "/projects/0/app/shopsol",
+  },
+  {
     name: "Stay Finder",
-    platform: [Platform.ios, Platform.android, Platform.web],
+    platforms: [Platform.web],
     year: "2020",
     tools: [
       { type: Layer.FE, name: FE.react },
+      { type: Layer.FE, name: FE.redux },
+      { type: Layer.FE, name: FE.ts },
+      { type: Layer.FE, name: FE.sc },
+      { type: Layer.FE, name: FE.sentry },
+    ],
+    link: "/projects/0/web/airbnp",
+  },
+  {
+    name: "Stay Finder",
+    platforms: [Platform.ios, Platform.android],
+    year: "2020",
+    tools: [
       { type: Layer.FE, name: FE.rn },
       { type: Layer.FE, name: FE.redux },
       { type: Layer.FE, name: FE.ts },
@@ -65,15 +91,27 @@ const Projects = [
       { type: Layer.BE, name: BE.mapApi },
       { type: Layer.BE, name: BE.heroku },
     ],
-    links: [
-      { type: GitLayer.APP, link: "https://github.com/plusbeauxjours/airbnp-app" },
-      { type: GitLayer.WEB, link: "https://github.com/plusbeauxjours/airbnp" },
-      { type: GitLayer.SERVER, link: "https://github.com/plusbeauxjours/airbnp-api" },
+    link: "/projects/0/app/airbnp",
+  },
+  {
+    name: "Sport Up",
+    platforms: [Platform.ios, Platform.android],
+    year: "2020",
+    tools: [
+      { type: Layer.FE, name: FE.rn },
+      { type: Layer.FE, name: FE.apollo },
+      { type: Layer.FE, name: FE.ts },
+      { type: Layer.FE, name: FE.sc },
+      { type: Layer.BE, name: BE.dj },
+      { type: Layer.BE, name: BE.graphene },
+      { type: Layer.BE, name: BE.firebase },
+      { type: Layer.BE, name: BE.heroku },
     ],
+    link: "/projects/0/app/sportup",
   },
   {
     name: "Jahanuri",
-    platform: [Platform.ios, Platform.android],
+    platforms: [Platform.ios, Platform.android],
     year: "2020",
     tools: [
       { type: Layer.FE, name: FE.rn },
@@ -85,24 +123,26 @@ const Projects = [
       { type: Layer.BE, name: BE.graphene },
       { type: Layer.BE, name: BE.heroku },
     ],
-    links: [
-      { type: GitLayer.APP, link: "https://github.com/plusbeauxjours/jahanuri-app" },
-      { type: GitLayer.SERVER, link: "https://github.com/plusbeauxjours/jahanuri-server" },
-    ],
-  },
-  {
-    name: "Aewsome Weather",
-    platform: [Platform.ios, Platform.android],
-    year: "2018",
-    tools: [{ type: Layer.FE, name: FE.rn }],
-    links: [{ type: GitLayer.APP, link: "https://github.com/plusbeauxjours/awesome-weather" }],
+    link: "/projects/0/app/jahanuri",
   },
   {
     name: "Pinner",
-    platform: [Platform.ios, Platform.android, Platform.web],
+    platforms: [Platform.web],
     year: "2019",
     tools: [
       { type: Layer.FE, name: FE.react },
+      { type: Layer.FE, name: FE.apollo },
+      { type: Layer.FE, name: FE.ts },
+      { type: Layer.FE, name: FE.sc },
+      { type: Layer.FE, name: FE.sentry },
+    ],
+    link: "/projects/0/web/pinner",
+  },
+  {
+    name: "Pinner",
+    platforms: [Platform.ios, Platform.android],
+    year: "2019",
+    tools: [
       { type: Layer.FE, name: FE.rn },
       { type: Layer.FE, name: FE.apollo },
       { type: Layer.FE, name: FE.ts },
@@ -114,67 +154,11 @@ const Projects = [
       { type: Layer.BE, name: BE.mapApi },
       { type: Layer.BE, name: BE.heroku },
     ],
-    links: [
-      { type: GitLayer.APP, link: "https://github.com/plusbeauxjours/pinner-app" },
-      { type: GitLayer.WEB, link: "https://github.com/plusbeauxjours/pinner-frontend" },
-      { type: GitLayer.SERVER, link: "https://github.com/plusbeauxjours/pinner-backend" },
-    ],
-  },
-  {
-    name: "Done Deal",
-    platform: [Platform.ios, Platform.android],
-    year: "2018",
-    tools: [{ type: Layer.FE, name: FE.rn }],
-    links: [{ type: GitLayer.APP, link: "https://github.com/plusbeauxjours/kitty-todo" }],
-  },
-  {
-    name: "Popcorn Movie",
-    platform: [Platform.ios, Platform.android, Platform.web],
-    year: "2019",
-    tools: [
-      { type: Layer.FE, name: FE.react },
-      { type: Layer.FE, name: FE.rn },
-    ],
-    links: [
-      { type: GitLayer.APP, link: "https://github.com/plusbeauxjours/movie-app" },
-      { type: GitLayer.WEB, link: "https://github.com/plusbeauxjours/petflix" },
-    ],
-  },
-  {
-    name: "Shopsol",
-    platform: [Platform.ios, Platform.android],
-    year: "2021",
-    tools: [
-      { type: Layer.FE, name: FE.rn },
-      { type: Layer.FE, name: FE.ts },
-      { type: Layer.FE, name: FE.sc },
-      { type: Layer.FE, name: FE.fastlane },
-      { type: Layer.FE, name: FE.codepush },
-    ],
-    links: [],
-  },
-  {
-    name: "Sport Up",
-    platform: [Platform.ios, Platform.android],
-    year: "2020",
-    tools: [
-      { type: Layer.FE, name: FE.rn },
-      { type: Layer.FE, name: FE.apollo },
-      { type: Layer.FE, name: FE.ts },
-      { type: Layer.FE, name: FE.sc },
-      { type: Layer.BE, name: BE.dj },
-      { type: Layer.BE, name: BE.graphene },
-      { type: Layer.BE, name: BE.firebase },
-      { type: Layer.BE, name: BE.heroku },
-    ],
-    links: [
-      { type: GitLayer.APP, link: "https://github.com/plusbeauxjours/sportup-frontend" },
-      { type: GitLayer.SERVER, link: "https://github.com/plusbeauxjours/sportup-backend" },
-    ],
+    link: "/projects/0/app/pinner",
   },
   {
     name: "Cab Hub",
-    platform: [Platform.web],
+    platforms: [Platform.web],
     year: "2018",
     tools: [
       { type: Layer.FE, name: FE.react },
@@ -187,33 +171,99 @@ const Projects = [
       { type: Layer.BE, name: BE.typeorm },
       { type: Layer.BE, name: BE.mapApi },
     ],
-    links: [
-      { type: GitLayer.WEB, link: "https://github.com/plusbeauxjours/puber-client" },
-      { type: GitLayer.SERVER, link: "https://github.com/plusbeauxjours/puber-server" },
-    ],
+    link: "/projects/0/web/puber",
+  },
+  {
+    name: "Aewsome Weather",
+    platforms: [Platform.ios, Platform.android],
+    year: "2018",
+    tools: [{ type: Layer.FE, name: FE.rn }],
+    link: "/projects/0/app/pewsomeweather",
+  },
+
+  {
+    name: "Done Deal",
+    platforms: [Platform.ios, Platform.android],
+    year: "2018",
+    tools: [{ type: Layer.FE, name: FE.rn }],
+    link: "projects/0/app/pittytodo",
+  },
+  {
+    name: "Popcorn Movie",
+    platforms: [Platform.ios, Platform.android],
+    year: "2018",
+    tools: [{ type: Layer.FE, name: FE.rn }],
+    link: "/projects/0/app/popcornmovie",
+  },
+  {
+    name: "Popcorn Movie",
+    platforms: [Platform.web],
+    year: "2018",
+    tools: [{ type: Layer.FE, name: FE.react }],
+    link: "/projects/0/web/popcornmovie",
   },
 ];
 
 const ArchivePage = ({}: Props) => {
   return (
-    <div>
-      <table>
-        <thead></thead>
-        <tbody>
-          {Projects.map((project, pi) => (
-            <tr key={pi} className="px-5">
-              <td>{project.year}</td>
-              <td>{project.name}</td>
-              <td>{project.platform}</td>
-              <td>
-                {project.tools.map((t, ti) => (
-                  <div key={ti}>{t.name}</div>
-                ))}
+    <div className="container mx-auto px-4 py-8">
+      <table className="min-w-full bg-white border border-gray-200">
+        <thead>
+          <tr className="text-gray-600 text-sm leading-normal">
+            <th className="py-3 px-6 text-left">Year</th>
+            <th className="py-3 px-6 text-left">Project</th>
+            <th className="py-3 px-6 text-left">Platform</th>
+            <th className="py-3 px-6 text-left">Built with</th>
+            <th className="py-3 px-6 text-left">Link</th>
+          </tr>
+        </thead>
+        <tbody className="text-gray-600 text-sm font-light">
+          {Projects.map((project, i) => (
+            <tr className="border-b border-gray-200 hover:bg-gray-100 align-top">
+              <td className="py-3 px-6 text-left whitespace-nowrap">{project.year}</td>
+              <td className="py-3 px-6 text-left">{project.name}</td>
+              <td className="py-3 px-6 text-left">
+                <div className="flex flex-wrap">
+                  {project.platforms.map((p, pi) => (
+                    <span
+                      key={pi}
+                      className={`m-0.5 py-1 px-2 rounded-full text-xs ${
+                        p === Platform.android
+                          ? "bg-red-100 text-red-600"
+                          : p === Platform.ios
+                          ? "bg-green-100 text-green-600"
+                          : "bg-blue-100 text-blue-600"
+                      }`}>
+                      {p}
+                    </span>
+                  ))}
+                </div>
               </td>
-              <td>
-                {project.links.map((l, li) => (
-                  <div key={li}>{l.link}</div>
-                ))}
+              <td className="py-3 px-6 text-left">
+                <div className="flex flex-wrap max-w-[400px]">
+                  {project.tools.map((t, ti) => (
+                    <span
+                      key={ti}
+                      className={`m-0.5 py-1 px-2 rounded-full text-xs ${
+                        t.type === Layer.FE
+                          ? "bg-red-100 text-red-600"
+                          : "bg-green-100 text-green-600"
+                      }`}>
+                      {t.name}
+                    </span>
+                  ))}
+                </div>
+              </td>
+              <td className="py-3 px-6 text-left">
+                <div className="flex flex-wrap max-w-[400px]">
+                  <Link
+                    href={project.link}
+                    className="text-blue-500 hover:underline"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    🔗
+                  </Link>
+                </div>
               </td>
             </tr>
           ))}
