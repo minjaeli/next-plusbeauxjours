@@ -154,28 +154,28 @@ const ProjectsPage: React.FunctionComponent<any> = () => {
               </div>
             </div>
           </Link>
-          <Link href={"/projects/0/app/pittytodo"}>
+          <Link href={"/projects/0/app/donedeal"}>
             <div className="relative bg-white border border-gray-200 rounded-lg p-4 text-center">
               <img
-                src={"/images/thumbnails/app_thumbnail_pitty.jpg"}
+                src={"/images/thumbnails/app_thumbnail_donedeal.jpg"}
                 className="w-full max-w-2xl"
                 alt=""
               />
               <div className="absolute inset-0 flex flex-col justify-center items-center bg-opacity-70 text-black">
-                <div className="text-xl font-bold mt-8">Kitty To Do</div>
+                <div className="text-xl font-bold mt-8">DoneDeal</div>
                 <div className="text-lg mt-2">To do app with React-Native</div>
               </div>
             </div>
           </Link>
-          <Link href={"/projects/0/app/pewsomeweather"}>
+          <Link href={"/projects/0/app/aewsomeweather"}>
             <div className="relative bg-white border border-gray-200 rounded-lg p-4 text-center">
               <img
-                src={"/images/thumbnails/app_thumbnail_pewsome.jpg"}
+                src={"/images/thumbnails/app_thumbnail_aewsome.jpg"}
                 className="w-full max-w-2xl"
                 alt=""
               />
               <div className="absolute inset-0 flex flex-col justify-center items-center bg-opacity-70 text-black">
-                <div className="text-xl font-bold mt-8">Pewsome Weather</div>
+                <div className="text-xl font-bold mt-8">Aewsome Weather</div>
                 <div className="text-lg mt-2">Weather app with React-Native</div>
               </div>
             </div>

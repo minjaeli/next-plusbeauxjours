@@ -4,14 +4,14 @@ import GreyLine from "@/components/GreyLine";
 import TextBox from "@/components/TextBox";
 import HeaderBox from "@/components/HeaderBox";
 
-const PewsomeWeather: React.FunctionComponent<any> = () => {
+const AewsomeWeather: React.FunctionComponent<any> = () => {
   const ScreenShots = () => {
     const screenShotList = [
-      "/images/app/pewsome/pewsome_screenshot_s1.jpg",
-      "/images/app/pewsome/pewsome_screenshot_s2.jpg",
-      "/images/app/pewsome/pewsome_screenshot_s3.jpg",
-      "/images/app/pewsome/pewsome_screenshot_s4.jpg",
-      "/images/app/pewsome/pewsome_screenshot_s5.jpg",
+      "/images/app/aewsome/aewsome_screenshot_s1.jpg",
+      "/images/app/aewsome/aewsome_screenshot_s2.jpg",
+      "/images/app/aewsome/aewsome_screenshot_s3.jpg",
+      "/images/app/aewsome/aewsome_screenshot_s4.jpg",
+      "/images/app/aewsome/aewsome_screenshot_s5.jpg",
     ];
     return (
       <div className="flex justify-center w-full">
@@ -32,7 +32,7 @@ const PewsomeWeather: React.FunctionComponent<any> = () => {
   return (
     <div className="bg-gray-100 mb-72">
       <HeaderBox
-        title={"Pewsome Weather"}
+        title={"AewsomeWeather"}
         date={"30th Nov 2017 - 5th Dec 2017"}
         duration={"1 WEEK"}
         git={[{ url: "https://github.com/plusbeauxjours/awesome-weather", text: "CLIENT" }]}
@@ -49,4 +49,4 @@ const PewsomeWeather: React.FunctionComponent<any> = () => {
   );
 };
 
-export default PewsomeWeather;
+export default AewsomeWeather;

@@ -65,7 +65,7 @@ const Projects = [
     link: "/projects/0/app/shopsol",
   },
   {
-    name: "Stay Finder",
+    name: "StayFinder",
     platforms: [Platform.web],
     year: "2020",
     tools: [
@@ -78,7 +78,7 @@ const Projects = [
     link: "/projects/0/web/airbnp",
   },
   {
-    name: "Stay Finder",
+    name: "StayFinder",
     platforms: [Platform.ios, Platform.android],
     year: "2020",
     tools: [
@@ -94,7 +94,7 @@ const Projects = [
     link: "/projects/0/app/airbnp",
   },
   {
-    name: "Sport Up",
+    name: "SportUp",
     platforms: [Platform.ios, Platform.android],
     year: "2020",
     tools: [
@@ -157,7 +157,7 @@ const Projects = [
     link: "/projects/0/app/pinner",
   },
   {
-    name: "Cab Hub",
+    name: "CabHub",
     platforms: [Platform.web],
     year: "2018",
     tools: [
@@ -174,29 +174,29 @@ const Projects = [
     link: "/projects/0/web/puber",
   },
   {
-    name: "Aewsome Weather",
+    name: "AewsomeWeather",
     platforms: [Platform.ios, Platform.android],
     year: "2018",
     tools: [{ type: Layer.FE, name: FE.rn }],
-    link: "/projects/0/app/pewsomeweather",
+    link: "/projects/0/app/aewsomeweather",
   },
 
   {
-    name: "Done Deal",
+    name: "DoneDeal",
     platforms: [Platform.ios, Platform.android],
     year: "2018",
     tools: [{ type: Layer.FE, name: FE.rn }],
-    link: "projects/0/app/pittytodo",
+    link: "projects/0/app/donedeal",
   },
   {
-    name: "Popcorn Movie",
+    name: "PopcornMovie",
     platforms: [Platform.ios, Platform.android],
     year: "2018",
     tools: [{ type: Layer.FE, name: FE.rn }],
     link: "/projects/0/app/popcornmovie",
   },
   {
-    name: "Popcorn Movie",
+    name: "PopcornMovie",
     platforms: [Platform.web],
     year: "2018",
     tools: [{ type: Layer.FE, name: FE.react }],

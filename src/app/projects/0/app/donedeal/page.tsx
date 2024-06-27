@@ -5,13 +5,13 @@ import GreyLine from "@/components/GreyLine";
 import AboutColors from "@/components/AboutColors";
 import HeaderBox from "@/components/HeaderBox";
 
-const PittyToDoPage: React.FunctionComponent<any> = () => {
+const DoneDealToDoPage: React.FunctionComponent<any> = () => {
   const ScreenShots = () => {
     const screenShotList = [
-      "/images/app/pitty/pitty_video.gif",
-      "/images/app/pitty/pitty_screenshot_s1.jpg",
-      "/images/app/pitty/pitty_screenshot_s2.jpg",
-      "/images/app/pitty/pitty_screenshot_s3.jpg",
+      "/images/app/donedeal/donedeal_video.gif",
+      "/images/app/donedeal/donedeal_screenshot_s1.jpg",
+      "/images/app/donedeal/donedeal_screenshot_s2.jpg",
+      "/images/app/donedeal/donedeal_screenshot_s3.jpg",
     ];
     return (
       <div className="flex justify-center w-full">
@@ -32,15 +32,15 @@ const PittyToDoPage: React.FunctionComponent<any> = () => {
   return (
     <div className="bg-gray-100 mb-72">
       <HeaderBox
-        title={"Pitty To Do"}
+        title={"DoneDeal"}
         date={"8th Mar 2018 - 14th Mar 2018"}
         duration={"1 WEEK"}
-        git={[{ url: "https://github.com/plusbeauxjours/kitty-todo", text: "CLIENT" }]}
+        git={[{ url: "https://github.com/plusbeauxjours/donedeal", text: "CLIENT" }]}
       />
       <TextBox
         title={"About this Project"}
         text={
-          "PittyToDo is a basic React Native tutorial designed to help understand AsyncStorage and state management. By default, setState triggers a re-render and updates the local state asynchronously. Users can add tasks, mark them as completed, edit them, and delete them."
+          "DoneDeal is a basic React Native tutorial designed to help understand AsyncStorage and state management. By default, setState triggers a re-render and updates the local state asynchronously. Users can add tasks, mark them as completed, edit them, and delete them."
         }
       />
       <GreyLine />
@@ -62,4 +62,4 @@ const PittyToDoPage: React.FunctionComponent<any> = () => {
   );
 };
 
-export default PittyToDoPage;
+export default DoneDealToDoPage;

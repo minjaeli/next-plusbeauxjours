@@ -17,8 +17,8 @@
 
 📍 Pinner
 
-🌈 PewsomeWeather
+🌈 AewsomeWeather
 
-✅ PittyToDo
+✅ DoneDeal
 
 🍿 PopcornMovie
