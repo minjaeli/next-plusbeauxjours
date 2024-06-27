@@ -20,14 +20,14 @@ const JahanuriAppPage = () => {
         alt=""
       />
       <Image
-        src={"/images/app/jahanuri/jahanuri_multi_select_field_Admin.jpg"}
+        src={"/images/app/jahanuri/jahanuri_multi_select_field_admin.jpg"}
         width={800}
         height={995}
         className="mb-5 max-w-2xl w-full mr-8"
         alt=""
       />
       <Image
-        src={"/images/app/jahanuri/jahanuri_multi_select_field_Code.jpg"}
+        src={"/images/app/jahanuri/jahanuri_multi_select_field_code.jpg"}
         width={800}
         height={560}
         className="mb-5 max-w-2xl w-full"

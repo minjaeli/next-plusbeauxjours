@@ -106,7 +106,7 @@ const PinnerAppPage: React.FunctionComponent<any> = () => {
           alt=""
         />
         <Image
-          src={"/images/app/pinner/pinner_search_autocomplete_Code.jpg"}
+          src={"/images/app/pinner/pinner_search_autocomplete_code.jpg"}
           className="max-w-full mt-24 mb-4"
           width={800}
           height={1200}

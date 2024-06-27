@@ -94,7 +94,7 @@ const CabHubWebPage: React.FunctionComponent<any> = () => {
           alt=""
         />
         <Image
-          src={"/images/web/cabhub/cabhub_Subscription_Code.jpg"}
+          src={"/images/web/cabhub/cabhub_subscription_code.jpg"}
           className="max-w-full mb-4"
           width={800}
           height={1200}

@@ -100,7 +100,7 @@ const StayFinderAppPage: React.FunctionComponent<any> = () => {
           alt=""
         />
         <Image
-          src={"/images/app/stayfinder/stayfinder_map_to_data_Code.jpg"}
+          src={"/images/app/stayfinder/stayfinder_map_to_data_code.jpg"}
           width={800}
           height={1200}
           className="max-w-full mb-4"
@@ -132,7 +132,7 @@ const StayFinderAppPage: React.FunctionComponent<any> = () => {
           alt=""
         />
         <Image
-          src={"/images/app/stayfinder/stayfinder_data_to_map_Code.jpg"}
+          src={"/images/app/stayfinder/stayfinder_data_to_map_code.jpg"}
           width={800}
           height={1200}
           className="max-w-full mt-24 mb-4"
