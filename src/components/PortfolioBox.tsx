@@ -16,7 +16,7 @@ const PortfolioBox: React.FunctionComponent<any> = () => (
       <div className="flex w-4/5">
         <div className="grid grid-cols-3 gap-8 sm:grid-cols-2 xs:grid-cols-1">
           <Link
-            href={"/projects/app/shopsol"}
+            href={"/projects/0/app/shopsol"}
             className="relative bg-white border border-gray-300 rounded-2xl w-full overflow-hidden">
             <Image
               src={"/images/thumbnails/app_thumbnail_shopsol.jpg"}
@@ -27,7 +27,7 @@ const PortfolioBox: React.FunctionComponent<any> = () => (
             />
           </Link>
           <Link
-            href={"/projects/app/sportup"}
+            href={"/projects/0/app/sportup"}
             className="relative bg-white border border-gray-300 rounded-2xl w-full overflow-hidden">
             <Image
               src={"/images/thumbnails/app_thumbnail_sportup.jpg"}
@@ -38,7 +38,7 @@ const PortfolioBox: React.FunctionComponent<any> = () => (
             />
           </Link>
           <Link
-            href={"/projects/app/jahanuri"}
+            href={"/projects/0/app/jahanuri"}
             className="relative bg-white border border-gray-300 rounded-2xl w-full overflow-hidden">
             <Image
               src={"/images/thumbnails/app_thumbnail_jahanuri.jpg"}
@@ -49,7 +49,7 @@ const PortfolioBox: React.FunctionComponent<any> = () => (
             />
           </Link>
           <Link
-            href={"/projects/app/pinner"}
+            href={"/projects/0/app/pinner"}
             className="relative bg-white border border-gray-300 rounded-2xl w-full overflow-hidden">
             <Image
               src={"/images/thumbnails/app_thumbnail_pinner.jpg"}
@@ -60,7 +60,7 @@ const PortfolioBox: React.FunctionComponent<any> = () => (
             />
           </Link>
           <Link
-            href={"/projects/web/pinner"}
+            href={"/projects/0/web/pinner"}
             className="relative bg-white border border-gray-300 rounded-2xl w-full overflow-hidden">
             <Image
               src={"/images/thumbnails/web_thumbnail_pinner.jpg"}
@@ -71,7 +71,7 @@ const PortfolioBox: React.FunctionComponent<any> = () => (
             />
           </Link>
           <Link
-            href={"/projects/web/puber"}
+            href={"/projects/0/web/puber"}
             className="relative bg-white border border-gray-300 rounded-2xl w-full overflow-hidden">
             <Image
               src={"/images/thumbnails/web_thumbnail_puber.jpg"}
