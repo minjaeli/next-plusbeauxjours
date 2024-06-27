@@ -6,7 +6,7 @@ const ProjectsPage: React.FunctionComponent<any> = () => {
     <div className="flex justify-center">
       <div className="bg-white w-4/5 max-w-5xl mt-8 rounded-lg flex items-center flex-wrap">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-72">
-          <Link href={"/projects/app/shopsol"}>
+          <Link href={"/projects/0/app/shopsol"}>
             <div className="relative bg-white border border-gray-200 rounded-lg p-4 text-center">
               <img
                 src={"/images/thumbnails/app_thumbnail_shopsol.jpg"}
@@ -22,7 +22,7 @@ const ProjectsPage: React.FunctionComponent<any> = () => {
               </div>
             </div>
           </Link>
-          <Link href={"/projects/app/sportup"}>
+          <Link href={"/projects/0/app/sportup"}>
             <div className="relative bg-white border border-gray-200 rounded-lg p-4 text-center">
               <img
                 src={"/images/thumbnails/app_thumbnail_sportup.jpg"}
@@ -37,7 +37,7 @@ const ProjectsPage: React.FunctionComponent<any> = () => {
               </div>
             </div>
           </Link>
-          <Link href={"/projects/app/airbnp"}>
+          <Link href={"/projects/0/app/airbnp"}>
             <div className="relative bg-white border border-gray-200 rounded-lg p-4 text-center">
               <img
                 src={"/images/thumbnails/app_thumbnail_airbnp.jpg"}
@@ -52,7 +52,7 @@ const ProjectsPage: React.FunctionComponent<any> = () => {
               </div>
             </div>
           </Link>
-          <Link href={"/projects/app/jahanuri"}>
+          <Link href={"/projects/0/app/jahanuri"}>
             <div className="relative bg-white border border-gray-200 rounded-lg p-4 text-center">
               <img
                 src={"/images/thumbnails/app_thumbnail_jahanuri.jpg"}
@@ -68,7 +68,7 @@ const ProjectsPage: React.FunctionComponent<any> = () => {
               </div>
             </div>
           </Link>
-          <Link href={"/projects/app/pinner"}>
+          <Link href={"/projects/0/app/pinner"}>
             <div className="relative bg-white border border-gray-200 rounded-lg p-4 text-center">
               <img
                 src={"/images/thumbnails/app_thumbnail_pinner.jpg"}
@@ -83,7 +83,7 @@ const ProjectsPage: React.FunctionComponent<any> = () => {
               </div>
             </div>
           </Link>
-          <Link href={"/projects/web/pinner"}>
+          <Link href={"/projects/0/web/pinner"}>
             <div className="relative bg-white border border-gray-200 rounded-lg p-4 text-center">
               <img
                 src={"/images/thumbnails/web_thumbnail_pinner.jpg"}
@@ -98,7 +98,7 @@ const ProjectsPage: React.FunctionComponent<any> = () => {
               </div>
             </div>
           </Link>
-          <Link href={"/projects/web/puber"}>
+          <Link href={"/projects/0/web/puber"}>
             <div className="relative bg-white border border-gray-200 rounded-lg p-4 text-center">
               <img
                 src={"/images/thumbnails/web_thumbnail_puber.jpg"}
@@ -113,7 +113,7 @@ const ProjectsPage: React.FunctionComponent<any> = () => {
               </div>
             </div>
           </Link>
-          <Link href={"/projects/web/airbnp"}>
+          <Link href={"/projects/0/web/airbnp"}>
             <div className="relative bg-white border border-gray-200 rounded-lg p-4 text-center">
               <img
                 src={"/images/thumbnails/web_thumbnail_airbnp.jpg"}
@@ -126,7 +126,7 @@ const ProjectsPage: React.FunctionComponent<any> = () => {
               </div>
             </div>
           </Link>
-          <Link href={"/projects/web/popcornmovie"}>
+          <Link href={"/projects/0/web/popcornmovie"}>
             <div className="relative bg-white border border-gray-200 rounded-lg p-4 text-center">
               <img
                 src={"/images/thumbnails/web_thumbnail_popcorn_movie.jpg"}
@@ -141,7 +141,7 @@ const ProjectsPage: React.FunctionComponent<any> = () => {
               </div>
             </div>
           </Link>
-          <Link href={"/projects/app/popcornmovie"}>
+          <Link href={"/projects/0/app/popcornmovie"}>
             <div className="relative bg-white border border-gray-200 rounded-lg p-4 text-center">
               <img
                 src={"/images/thumbnails/app_thumbnail_popcorn_movie.jpg"}
@@ -154,7 +154,7 @@ const ProjectsPage: React.FunctionComponent<any> = () => {
               </div>
             </div>
           </Link>
-          <Link href={"/projects/app/pittytodo"}>
+          <Link href={"/projects/0/app/pittytodo"}>
             <div className="relative bg-white border border-gray-200 rounded-lg p-4 text-center">
               <img
                 src={"/images/thumbnails/app_thumbnail_pitty.jpg"}
@@ -167,7 +167,7 @@ const ProjectsPage: React.FunctionComponent<any> = () => {
               </div>
             </div>
           </Link>
-          <Link href={"/projects/app/pewsomeweather"}>
+          <Link href={"/projects/0/app/pewsomeweather"}>
             <div className="relative bg-white border border-gray-200 rounded-lg p-4 text-center">
               <img
                 src={"/images/thumbnails/app_thumbnail_pewsome.jpg"}
