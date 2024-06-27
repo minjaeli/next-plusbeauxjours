@@ -37,15 +37,15 @@ const ProjectsPage: React.FunctionComponent<any> = () => {
               </div>
             </div>
           </Link>
-          <Link href={"/projects/0/app/airbnp"}>
+          <Link href={"/projects/0/app/stayfinder"}>
             <div className="relative bg-white border border-gray-200 rounded-lg p-4 text-center">
               <img
-                src={"/images/thumbnails/app_thumbnail_airbnp.jpg"}
+                src={"/images/thumbnails/app_thumbnail_stayfinder.jpg"}
                 className="w-full max-w-2xl"
                 alt=""
               />
               <div className="absolute inset-0 flex flex-col justify-center items-center bg-opacity-70 text-black">
-                <div className="text-xl font-bold mt-8">Airbnp</div>
+                <div className="text-xl font-bold mt-8">StayFinder</div>
                 <div className="text-lg mt-2">
                   Airbnb clone with Django, React-Native, REST-Api, Redux, Typescript
                 </div>
@@ -113,15 +113,15 @@ const ProjectsPage: React.FunctionComponent<any> = () => {
               </div>
             </div>
           </Link>
-          <Link href={"/projects/0/web/airbnp"}>
+          <Link href={"/projects/0/web/stayfinder"}>
             <div className="relative bg-white border border-gray-200 rounded-lg p-4 text-center">
               <img
-                src={"/images/thumbnails/web_thumbnail_airbnp.jpg"}
+                src={"/images/thumbnails/web_thumbnail_stayfinder.jpg"}
                 className="w-full max-w-2xl"
                 alt=""
               />
               <div className="absolute inset-0 flex flex-col justify-center items-center bg-opacity-70 text-black">
-                <div className="text-xl font-bold mt-8">Airbnp</div>
+                <div className="text-xl font-bold mt-8">StayFinder</div>
                 <div className="text-lg mt-2">Air-bnb clone with Django, Tailwind</div>
               </div>
             </div>

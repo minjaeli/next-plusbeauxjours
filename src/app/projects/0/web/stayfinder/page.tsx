@@ -7,14 +7,14 @@ import GreyLine from "@/components/GreyLine";
 import TechnicalSheet from "@/components/TechnicalSheet";
 import HeaderBox from "@/components/HeaderBox";
 
-const AirbnpWebPage: React.FunctionComponent<any> = () => {
+const StayFinderWebPage: React.FunctionComponent<any> = () => {
   return (
     <div className="bg-gray-100 mb-72">
       <HeaderBox
-        title={"Airbnp"}
+        title={"StayFinder"}
         date={"5th Feb 2020 - 9th Mar 2020"}
         duration={"3 MONTHS"}
-        git={[{ url: "https://github.com/plusbeauxjours/airbnp", text: "CLIENT" }]}
+        git={[{ url: "https://github.com/plusbeauxjours/stayfinder", text: "CLIENT" }]}
       />
       <TextBox
         title={"About this Project"}
@@ -27,7 +27,7 @@ const AirbnpWebPage: React.FunctionComponent<any> = () => {
       <GreyLine />
       <div className="my-24 flex justify-center">
         <Image
-          src={"/images/web/airbnp/airbnp_alt.jpg"}
+          src={"/images/web/stayfinder/stayfinder_alt.jpg"}
           width={800}
           height={1200}
           className="max-w-full"
@@ -37,14 +37,14 @@ const AirbnpWebPage: React.FunctionComponent<any> = () => {
       <GreyLine />
       <div className="my-24 flex justify-center flex-col items-center">
         <Image
-          src={"/images/web/airbnp/airbnp_screenshot.jpg"}
+          src={"/images/web/stayfinder/stayfinder_screenshot.jpg"}
           width={800}
           height={1200}
           className="max-w-full"
           alt=""
         />
         <Image
-          src={"/images/web/airbnp/airbnp_video.gif"}
+          src={"/images/web/stayfinder/stayfinder_video.gif"}
           width={800}
           height={1200}
           className="max-w-full"
@@ -62,4 +62,4 @@ const AirbnpWebPage: React.FunctionComponent<any> = () => {
   );
 };
 
-export default AirbnpWebPage;
+export default StayFinderWebPage;

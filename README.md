@@ -2,7 +2,7 @@
 
 📍 Pinner
 
-🏡 Airbnp
+🏡 StayFinder
 
 🚕 CabHub
 

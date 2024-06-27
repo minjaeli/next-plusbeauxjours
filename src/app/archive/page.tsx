@@ -75,7 +75,7 @@ const Projects = [
       { type: Layer.FE, name: FE.sc },
       { type: Layer.FE, name: FE.sentry },
     ],
-    link: "/projects/0/web/airbnp",
+    link: "/projects/0/web/stayfinder",
   },
   {
     name: "StayFinder",
@@ -91,7 +91,7 @@ const Projects = [
       { type: Layer.BE, name: BE.mapApi },
       { type: Layer.BE, name: BE.heroku },
     ],
-    link: "/projects/0/app/airbnp",
+    link: "/projects/0/app/stayfinder",
   },
   {
     name: "SportUp",

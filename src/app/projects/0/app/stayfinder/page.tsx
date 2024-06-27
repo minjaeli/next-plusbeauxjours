@@ -9,13 +9,13 @@ import TechnicalSheet from "@/components/TechnicalSheet";
 import TextBox from "@/components/TextBox";
 import HeaderBox from "@/components/HeaderBox";
 
-const AirbnpAppPage: React.FunctionComponent<any> = () => {
+const StayFinderAppPage: React.FunctionComponent<any> = () => {
   const ScreenShots = () => {
     const screenShotList = [
-      "/images/app/airbnp/airbnp_video.gif",
-      "/images/app/airbnp/airbnp_screenshot_s1.jpg",
-      "/images/app/airbnp/airbnp_screenshot_s2.jpg",
-      "/images/app/airbnp/airbnp_screenshot_s3.jpg",
+      "/images/app/stayfinder/stayfinder_video.gif",
+      "/images/app/stayfinder/stayfinder_screenshot_s1.jpg",
+      "/images/app/stayfinder/stayfinder_screenshot_s2.jpg",
+      "/images/app/stayfinder/stayfinder_screenshot_s3.jpg",
     ];
     return (
       <div className="flex justify-center w-full">
@@ -36,12 +36,12 @@ const AirbnpAppPage: React.FunctionComponent<any> = () => {
   return (
     <div className="bg-gray-100 mb-72">
       <HeaderBox
-        title={"Airbnp"}
+        title={"StayFinder"}
         date={"1st Jun 2020 - 28th Jun 2020"}
         duration={"4 WEEKS"}
         git={[
-          { url: "https://github.com/plusbeauxjours/airbnp-app", text: "CLIENT" },
-          { url: "https://github.com/plusbeauxjours/airbnp-api", text: "SERVER" },
+          { url: "https://github.com/plusbeauxjours/stayfinder-app", text: "CLIENT" },
+          { url: "https://github.com/plusbeauxjours/stayfinder-api", text: "SERVER" },
         ]}
       />
       <TextBox
@@ -76,7 +76,7 @@ const AirbnpAppPage: React.FunctionComponent<any> = () => {
           target="_blank"
           rel="noopener noreferrer"
           href={
-            "https://github.com/plusbeauxjours/airbnp-app/blob/29fdb111f54ae269ba58c84e0230ee50c071be8b/screens/Main/Map/MapPresenter.tsx#L138"
+            "https://github.com/plusbeauxjours/stayfinder-app/blob/29fdb111f54ae269ba58c84e0230ee50c071be8b/screens/Main/Map/MapPresenter.tsx#L138"
           }
           className="flex flex-col items-center mx-2">
           <GithubIcon />
@@ -85,7 +85,7 @@ const AirbnpAppPage: React.FunctionComponent<any> = () => {
           target="_blank"
           rel="noopener noreferrer"
           href={
-            "https://github.com/plusbeauxjours/airbnp-app/blob/29fdb111f54ae269ba58c84e0230ee50c071be8b/screens/Main/Map/MapContainer.tsx#L41"
+            "https://github.com/plusbeauxjours/stayfinder-app/blob/29fdb111f54ae269ba58c84e0230ee50c071be8b/screens/Main/Map/MapContainer.tsx#L41"
           }
           className="flex flex-col items-center mx-2">
           <GithubIcon />
@@ -93,14 +93,14 @@ const AirbnpAppPage: React.FunctionComponent<any> = () => {
       </div>
       <div className="flex flex-col justify-center items-center mb-24">
         <Image
-          src={"/images/app/airbnp/airbnp_map_to_data.gif"}
+          src={"/images/app/stayfinder/stayfinder_map_to_data.gif"}
           width={800}
           height={1200}
           className="max-w-full mb-4"
           alt=""
         />
         <Image
-          src={"/images/app/airbnp/airbnp_map_to_data_Code.jpg"}
+          src={"/images/app/stayfinder/stayfinder_map_to_data_Code.jpg"}
           width={800}
           height={1200}
           className="max-w-full mb-4"
@@ -118,21 +118,21 @@ const AirbnpAppPage: React.FunctionComponent<any> = () => {
         target="_blank"
         rel="noopener noreferrer"
         href={
-          "https://github.com/plusbeauxjours/airbnp-app/blob/29fdb111f54ae269ba58c84e0230ee50c071be8b/components/UserRooms.tsx#L111"
+          "https://github.com/plusbeauxjours/stayfinder-app/blob/29fdb111f54ae269ba58c84e0230ee50c071be8b/components/UserRooms.tsx#L111"
         }
         className="flex flex-col items-center my-5">
         <GithubIcon />
       </a>
       <div className="flex flex-col justify-center items-center mb-24">
         <Image
-          src={"/images/app/airbnp/airbnp_data_to_map.gif"}
+          src={"/images/app/stayfinder/stayfinder_data_to_map.gif"}
           width={300}
           height={650}
           className="max-w-xs w-full mb-8"
           alt=""
         />
         <Image
-          src={"/images/app/airbnp/airbnp_data_to_map_Code.jpg"}
+          src={"/images/app/stayfinder/stayfinder_data_to_map_Code.jpg"}
           width={800}
           height={1200}
           className="max-w-full mt-24 mb-4"
@@ -165,4 +165,4 @@ const AirbnpAppPage: React.FunctionComponent<any> = () => {
   );
 };
 
-export default AirbnpAppPage;
+export default StayFinderAppPage;
