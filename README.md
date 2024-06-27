@@ -4,7 +4,7 @@
 
 🏡 Airbnp
 
-🚕 Puber
+🚕 CabHub
 
 📷 Pomadgram
 

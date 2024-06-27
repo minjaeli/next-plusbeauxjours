@@ -171,7 +171,7 @@ const Projects = [
       { type: Layer.BE, name: BE.typeorm },
       { type: Layer.BE, name: BE.mapApi },
     ],
-    link: "/projects/0/web/puber",
+    link: "/projects/0/web/cabhub",
   },
   {
     name: "AewsomeWeather",

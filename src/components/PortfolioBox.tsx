@@ -71,10 +71,10 @@ const PortfolioBox: React.FunctionComponent<any> = () => (
             />
           </Link>
           <Link
-            href={"/projects/0/web/puber"}
+            href={"/projects/0/web/cabhub"}
             className="relative bg-white border border-gray-300 rounded-2xl w-full overflow-hidden">
             <Image
-              src={"/images/thumbnails/web_thumbnail_puber.jpg"}
+              src={"/images/thumbnails/web_thumbnail_cabhub.jpg"}
               width="400"
               height="400"
               className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-2000"

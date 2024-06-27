@@ -98,15 +98,15 @@ const ProjectsPage: React.FunctionComponent<any> = () => {
               </div>
             </div>
           </Link>
-          <Link href={"/projects/0/web/puber"}>
+          <Link href={"/projects/0/web/cabhub"}>
             <div className="relative bg-white border border-gray-200 rounded-lg p-4 text-center">
               <img
-                src={"/images/thumbnails/web_thumbnail_puber.jpg"}
+                src={"/images/thumbnails/web_thumbnail_cabhub.jpg"}
                 className="w-full max-w-2xl"
                 alt=""
               />
               <div className="absolute inset-0 flex flex-col justify-center items-center bg-opacity-70 text-black">
-                <div className="text-xl font-bold mt-8">Puber</div>
+                <div className="text-xl font-bold mt-8">CabHub</div>
                 <div className="text-lg mt-2">
                   Uber clone with Node.js, React, Graphql, Typescript
                 </div>
