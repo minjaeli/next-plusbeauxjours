@@ -16,6 +16,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <GoogleAnalytics GaId={GaId} />
         <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet"
+        />
+        <link
           rel="stylesheet"
           type="text/css"
           href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"
