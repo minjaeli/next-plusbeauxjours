@@ -14,7 +14,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html>
       <head>
-        <GoogleAnalytics GA_MEASUREMENT_ID={GaId} />
+        <GoogleAnalytics GaId={GaId} />
         <link
           rel="stylesheet"
           type="text/css"
