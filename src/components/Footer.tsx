@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import React, { useState } from "react";
 import Contact from "./Contact";
@@ -6,6 +6,7 @@ import { ContactMailIcon } from "./Icons";
 
 const Footer: React.FunctionComponent<any> = () => {
   const [modalOpen, setModalOpen] = useState<boolean>(false);
+
   return (
     <div className="bg-blue-500 w-full flex justify-center items-center">
       {modalOpen && (
