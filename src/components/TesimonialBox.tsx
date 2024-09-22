@@ -64,7 +64,7 @@ const Testimonial: React.FunctionComponent<any> = () => (
 
 const TestimonialBox: React.FunctionComponent<any> = () => (
   <div className="flex flex-col items-center text-center mb-24 h-[1000px] w-full">
-    <div className="text-4xl font-semibold">Testimonial</div>
+    <div className="text-2xl font-semibold">Testimonial</div>
     <Testimonial />
   </div>
 );

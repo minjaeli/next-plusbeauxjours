@@ -33,7 +33,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className="bg-bgColor">
         <main
-          className="w-full max-w-[1160px] mx-auto antialiased"
+          className="w-full max-w-[1160px] mx-auto antialiased pb-10"
           style={{ minHeight: "calc(100vh - 520px)" }}>
           {children}
         </main>

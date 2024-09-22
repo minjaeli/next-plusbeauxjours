@@ -14,7 +14,7 @@ const CabHubWeb: React.FunctionComponent<any> = () => {
         title={"CabHub"}
         date={"5th Nov 2018 - 12th Jan 2019"}
         duration={"2 MONTHS"}
-        git={[
+        gitLinks={[
           { url: "https://wonderful-visvesvaraya-af346f.netlify.app", text: "WEBSITE" },
           { url: "https://github.com/plusbeauxjours/cabhub-client", text: "CLIENT" },
           { url: "https://github.com/plusbeauxjours/cabhub-server", text: "SERVER" },
@@ -29,14 +29,14 @@ const CabHubWeb: React.FunctionComponent<any> = () => {
       <GreyLine />
       <TechnicalSheet
         list={[
-          "NodeJS",
-          "Express",
-          "GraphQL",
-          "TypeORM",
           "React",
           "Apollo",
           "TypeScript",
           "Styled-Components",
+          "NodeJS",
+          "Express",
+          "GraphQL",
+          "TypeORM",
           "GoogleMapAPI",
           "Heroku",
         ]}

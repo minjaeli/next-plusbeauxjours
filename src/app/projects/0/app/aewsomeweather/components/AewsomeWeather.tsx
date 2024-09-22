@@ -35,7 +35,7 @@ const AewsomeWeather: React.FunctionComponent<any> = () => {
         title={"AewsomeWeather"}
         date={"30th Nov 2017 - 5th Dec 2017"}
         duration={"1 WEEK"}
-        git={[{ url: "https://github.com/plusbeauxjours/awesome-weather", text: "CLIENT" }]}
+        gitLinks={[{ url: "https://github.com/plusbeauxjours/awesome-weather", text: "CLIENT" }]}
       />
       <TextBox
         title={"About this Project"}

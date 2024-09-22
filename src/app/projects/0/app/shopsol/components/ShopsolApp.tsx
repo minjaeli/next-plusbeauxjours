@@ -5,6 +5,7 @@ import GreyLine from "@/components/GreyLine";
 import TechnicalSheet from "@/components/TechnicalSheet";
 import AboutColors from "@/components/AboutColors";
 import HeaderBox from "@/components/HeaderBox";
+import { AndroidIcon, AppleIcon } from "@/components/Icons";
 
 const ShopsolApp = () => {
   const ScreenShots = () => {
@@ -23,12 +24,12 @@ const ShopsolApp = () => {
       { url: "/images/app/shopsol/shopsol_screenshot_s8.jpg", title: "Monthly Dashboard Screen" },
     ];
     return (
-      <div className="my-24 grid grid-cols-3 gap-4 justify-center">
+      <div className="my-24 grid grid-cols-3 gap-x-4 gap-y-20 justify-center">
         {screenShotList.map((item: any, index: number) => (
           <div key={index} className="flex flex-col items-center">
             <Image
               src={item.url}
-              className="max-w-xs w-full mb-8 md:mr-8 last:mr-0"
+              className="max-w-xs w-full mb-3"
               width={300}
               height={650}
               alt=""
@@ -41,7 +42,13 @@ const ShopsolApp = () => {
   };
   return (
     <div className="bg-gray-100 mb-72">
-      <HeaderBox title={"Shopsol"} date={"8th Jul 2020 - 27th Feb 2021"} duration={"8 MONTHS"} />
+      <HeaderBox
+        title={"Shopsol"}
+        date={"8th Jul 2020 - 27th Feb 2021"}
+        duration={"8 MONTHS"}
+        androidLink="https://bit.ly/2XGMXrB"
+        iosLink="https://apple.co/3xXLa4R"
+      />
       <TextBox
         title={"About This Project"}
         text={
@@ -50,14 +57,7 @@ const ShopsolApp = () => {
       />
       <GreyLine />
       <TechnicalSheet
-        list={[
-          "RESTful API",
-          "React-Native",
-          "TypeScript",
-          "Styled-Components",
-          "Fastlane",
-          "Codepush",
-        ]}
+        list={["React-Native", "TypeScript", "Styled-Components", "Fastlane", "Codepush"]}
       />
       <GreyLine />
       <AboutColors

@@ -66,7 +66,7 @@ const JahanuriApp = () => {
         title={"Jahanuri"}
         date={"19th Apr 2020 - 31st May 2020"}
         duration={"6 WEEKS"}
-        git={[
+        gitLinks={[
           { url: "https://github.com/plusbeauxjours/jahanuri-app", text: "CLIENT" },
           { url: "https://github.com/plusbeauxjours/jahanuri-server", text: "SERVER" },
         ]}
@@ -89,13 +89,13 @@ const JahanuriApp = () => {
       <GreyLine />
       <TechnicalSheet
         list={[
-          "Django",
-          "Graphene",
           "React-Native",
           "Apollo",
           "TypeScript",
           "Styled-Components",
           "Sentry",
+          "Django",
+          "Graphene",
           "Heroku",
         ]}
       />
@@ -144,7 +144,7 @@ const JahanuriApp = () => {
             textColorHex: "#FFF",
           },
         ]}>
-        <p className="text-4xl font-semibold mb-2.5">About Colors</p>
+        <p className="text-2xl font-semibold mb-6">About Colors</p>
         <p className="max-w-4xl mb-8">
           Co-founders of Jahanuri, Mrs. Kim Eun-Suk and Mr. Jang Jin-gi, have published a couple of
           books. They wanted to choose the application's main color from one of their&nbsp;

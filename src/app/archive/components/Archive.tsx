@@ -36,12 +36,15 @@ enum FE {
   sentry = "Sentry",
   fastlane = "Fastlane",
   codepush = "Codepush",
+  tailwind = "Tailwind",
+  djtemplate = "Django-Templete",
 }
 
 enum BE {
   dj = "Django",
   mapApi = "Google Map Api",
   heroku = "Heroku",
+  aws = "AWS",
   graphene = "Graphene",
   firebase = "Firebase",
   node = "NodeJS",
@@ -69,11 +72,10 @@ const Projects = [
     platforms: [Platform.web],
     year: "2020",
     tools: [
-      { type: Layer.FE, name: FE.react },
-      { type: Layer.FE, name: FE.redux },
-      { type: Layer.FE, name: FE.ts },
-      { type: Layer.FE, name: FE.sc },
-      { type: Layer.FE, name: FE.sentry },
+      { type: Layer.FE, name: FE.djtemplate },
+      { type: Layer.FE, name: FE.tailwind },
+      { type: Layer.BE, name: BE.dj },
+      { type: Layer.BE, name: BE.aws },
     ],
     link: "/projects/0/web/stayfinder",
   },
@@ -105,6 +107,7 @@ const Projects = [
       { type: Layer.BE, name: BE.dj },
       { type: Layer.BE, name: BE.graphene },
       { type: Layer.BE, name: BE.firebase },
+      { type: Layer.BE, name: BE.mapApi },
       { type: Layer.BE, name: BE.heroku },
     ],
     link: "/projects/0/app/sportup",
@@ -170,6 +173,7 @@ const Projects = [
       { type: Layer.BE, name: BE.graphql },
       { type: Layer.BE, name: BE.typeorm },
       { type: Layer.BE, name: BE.mapApi },
+      { type: Layer.BE, name: BE.heroku },
     ],
     link: "/projects/0/web/cabhub",
   },
@@ -192,14 +196,22 @@ const Projects = [
     name: "PopcornMovie",
     platforms: [Platform.ios, Platform.android],
     year: "2018",
-    tools: [{ type: Layer.FE, name: FE.rn }],
+    tools: [
+      { type: Layer.FE, name: FE.rn },
+      { type: Layer.FE, name: FE.ts },
+      { type: Layer.FE, name: FE.sc },
+    ],
     link: "/projects/0/app/popcornmovie",
   },
   {
     name: "PopcornMovie",
     platforms: [Platform.web],
     year: "2018",
-    tools: [{ type: Layer.FE, name: FE.react }],
+    tools: [
+      { type: Layer.FE, name: FE.rn },
+      { type: Layer.FE, name: FE.ts },
+      { type: Layer.FE, name: FE.sc },
+    ],
     link: "/projects/0/web/popcornmovie",
   },
 ];
@@ -207,6 +219,7 @@ const Projects = [
 const Archive = ({}: Props) => {
   return (
     <div className="container mx-auto px-4 py-8">
+      <p className="text-lg font-bold ml-1 mb-1">Season 1</p>
       <table className="min-w-full bg-white border border-gray-200">
         <thead>
           <tr className="text-gray-600 text-sm leading-normal">
@@ -246,8 +259,8 @@ const Archive = ({}: Props) => {
                       key={ti}
                       className={`m-0.5 py-1 px-2 rounded-full text-xs ${
                         t.type === Layer.FE
-                          ? "bg-red-100 text-red-600"
-                          : "bg-green-100 text-green-600"
+                          ? "bg-gray-200 text-gray-500"
+                          : "bg-slate-300 text-slate-800"
                       }`}>
                       {t.name}
                     </span>

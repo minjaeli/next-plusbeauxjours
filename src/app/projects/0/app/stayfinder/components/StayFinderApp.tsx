@@ -39,7 +39,7 @@ const StayFinderApp: React.FunctionComponent<any> = () => {
         title={"StayFinder"}
         date={"1st Jun 2020 - 28th Jun 2020"}
         duration={"4 WEEKS"}
-        git={[
+        gitLinks={[
           { url: "https://github.com/plusbeauxjours/stayfinder-app", text: "CLIENT" },
           { url: "https://github.com/plusbeauxjours/stayfinder-api", text: "SERVER" },
         ]}
@@ -53,14 +53,13 @@ const StayFinderApp: React.FunctionComponent<any> = () => {
       <GreyLine />
       <TechnicalSheet
         list={[
-          "Django",
-          "REST-Api",
           "React-Native",
           "Redux",
           "TypeScript",
           "Styled-Components",
-          "GoogleMapAPI",
           "Sentry",
+          "Django",
+          "GoogleMapAPI",
           "Heroku",
         ]}
       />

@@ -14,7 +14,7 @@ const StayFinderWeb: React.FunctionComponent<any> = () => {
         title={"StayFinder"}
         date={"5th Feb 2020 - 9th Mar 2020"}
         duration={"3 MONTHS"}
-        git={[{ url: "https://github.com/plusbeauxjours/stayfinder", text: "CLIENT" }]}
+        gitLinks={[{ url: "https://github.com/plusbeauxjours/stayfinder", text: "CLIENT" }]}
       />
       <TextBox
         title={"About this Project"}
@@ -23,7 +23,7 @@ const StayFinderWeb: React.FunctionComponent<any> = () => {
         }
       />
       <GreyLine />
-      <TechnicalSheet list={["Django", "Django-Template", "Tailwind", "AWS"]} />
+      <TechnicalSheet list={["Django-Template", "Tailwind", "Django", "AWS"]} />
       <GreyLine />
       <div className="my-24 flex justify-center">
         <Image

@@ -14,7 +14,7 @@ const PinnerWeb: React.FunctionComponent<any> = () => {
         title={"Pinner"}
         date={"24th Aug 2019 - 18th Dec 2019"}
         duration={"4 MONTHS"}
-        git={[
+        gitLinks={[
           { url: "https://master--pinner.netlify.app/", text: "WEBSITE" },
           { url: "https://github.com/plusbeauxjours/pinner-frontend", text: "CLIENT" },
           { url: "https://github.com/plusbeauxjours/pinner-backend", text: "SERVER" },
@@ -27,19 +27,7 @@ const PinnerWeb: React.FunctionComponent<any> = () => {
         }
       />
       <GreyLine />
-      <TechnicalSheet
-        list={[
-          "Django",
-          "Graphene",
-          "React",
-          "Apollo",
-          "TypeScript",
-          "Styled-Components",
-          "GoogleMapAPI",
-          "Sentry",
-          "Heroku",
-        ]}
-      />
+      <TechnicalSheet list={["React", "Apollo", "TypeScript", "Styled-Components", "Sentry"]} />
       <GreyLine />
       <TextBox
         title={"Alts"}

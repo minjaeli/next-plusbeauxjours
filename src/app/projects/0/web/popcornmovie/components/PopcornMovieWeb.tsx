@@ -13,7 +13,7 @@ const PopcornMovieWeb = () => {
         title={"Popcorn Movie"}
         date={"28th Aug 2019 - 8th Sep 2019"}
         duration={"2 WEEKS"}
-        git={[
+        gitLinks={[
           { url: "https://musing-roentgen-9a0963.netlify.app", text: "WEBSITE" },
           { url: "https://github.com/plusbeauxjours/petflix", text: "CLIENT" },
         ]}
@@ -25,7 +25,7 @@ const PopcornMovieWeb = () => {
         }
       />
       <GreyLine />
-      <TechnicalSheet list={["React", "Axios", "TypeScript", "Styled-Components", "Netlify"]} />
+      <TechnicalSheet list={["React", "TypeScript", "Styled-Components"]} />
       <GreyLine />
       <AboutColors
         list={[

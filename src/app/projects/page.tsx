@@ -16,8 +16,7 @@ const ProjectsPage: React.FunctionComponent<any> = () => {
               <div className="absolute inset-0 flex flex-col justify-center items-center bg-opacity-70 text-black">
                 <div className="text-xl font-bold mt-8">Shopsol</div>
                 <div className="text-lg mt-2">
-                  Employee Attendance Tracking App with React-Native, RESTful API, Typescript,
-                  Fastlane
+                  Employee Attendance Tracking App with React-Native, Typescript, Fastlane
                 </div>
               </div>
             </div>
@@ -47,7 +46,7 @@ const ProjectsPage: React.FunctionComponent<any> = () => {
               <div className="absolute inset-0 flex flex-col justify-center items-center bg-opacity-70 text-black">
                 <div className="text-xl font-bold mt-8">StayFinder</div>
                 <div className="text-lg mt-2">
-                  Airbnb clone with Django, React-Native, REST-Api, Redux, Typescript
+                  Airbnb clone with Django, React-Native, Redux, Typescript
                 </div>
               </div>
             </div>

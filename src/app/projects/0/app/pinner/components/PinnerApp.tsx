@@ -39,7 +39,7 @@ const PinnerApp: React.FunctionComponent<any> = () => {
         title={"Pinner"}
         date={"6th Sep 2019 - 14th Dec 2019"}
         duration={"3 MONTHS"}
-        git={[
+        gitLinks={[
           { url: "https://github.com/plusbeauxjours/pinner-app", text: "CLIENT" },
           { url: "https://github.com/plusbeauxjours/pinner-backend", text: "SERVER" },
         ]}

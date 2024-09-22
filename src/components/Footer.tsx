@@ -9,42 +9,8 @@ const Footer: React.FunctionComponent<any> = () => {
 
   return (
     <div className="bg-blue-500 w-full flex justify-center items-center">
-      {modalOpen && (
-        <div className="z-8 fixed inset-0 flex justify-center items-center">
-          <div
-            className="z-5 fixed inset-0 bg-gray-800 bg-opacity-50"
-            onClick={() => setModalOpen(false)}
-          />
-          <div className="z-10 bg-white rounded-lg p-8 max-w-xl mx-auto animation-fade-in">
-            <div className="text-4xl font-semibold mb-6 text-center">
-              Thanks for taking the time to reach out. How can I help you today?
-            </div>
-            <div className="text-lg font-light mb-12 text-center">
-              Interested in working together? We should queue up a chat. I’ll buy the coffee. I’m
-              always open to discussing project or partnership opportunities.
-            </div>
-            <Contact />
-          </div>
-        </div>
-      )}
       <div className="flex flex-col items-center">
-        <div className="bg-blue-900 w-11/12 max-w-3xl rounded-lg p-8 text-white relative bottom-24">
-          <div className="flex flex-col items-center text-center mb-4">
-            <div className="text-4xl font-semibold mb-4">THANKS!</div>
-            <div>Want to chat about something?</div>
-            <div className="flex justify-center mt-4">
-              <button
-                className="w-72 h-12 mt-4 bg-blue-500 text-white rounded-lg text-xl cursor-pointer flex justify-center items-center border-none"
-                onClick={() => setModalOpen(true)}>
-                <div className="mr-2">
-                  <ContactMailIcon />
-                </div>
-                CONTACT ME
-              </button>
-            </div>
-          </div>
-        </div>
-        <div className="flex flex-row justify-between w-30 mt-4">
+        <div className="flex flex-row justify-between w-30 mt-4 gap-4">
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -72,8 +38,8 @@ const Footer: React.FunctionComponent<any> = () => {
             </svg>
           </a>
         </div>
-        <div className="flex flex-col items-center mt-8">
-          <div className="font-thin text-sm text-white mt-24">
+        <div className="flex flex-col items-center mt-8 mb-4">
+          <div className="font-thin text-sm text-white">
             Handcrafted by plusbeauxjours © twentytwenty
           </div>
         </div>

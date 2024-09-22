@@ -35,7 +35,7 @@ const DoneDealToDo: React.FunctionComponent<any> = () => {
         title={"DoneDeal"}
         date={"8th Mar 2018 - 14th Mar 2018"}
         duration={"1 WEEK"}
-        git={[{ url: "https://github.com/plusbeauxjours/donedeal", text: "CLIENT" }]}
+        gitLinks={[{ url: "https://github.com/plusbeauxjours/donedeal", text: "CLIENT" }]}
       />
       <TextBox
         title={"About this Project"}

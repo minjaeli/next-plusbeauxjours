@@ -39,7 +39,7 @@ const PopcornMovie: React.FunctionComponent<any> = () => {
         title={"Popcorn Movie"}
         date={"14th Mar 2019 - 19th Mar 2019"}
         duration={"1 WEEK"}
-        git={[{ url: "https://github.com/plusbeauxjours/movie-app", text: "CLIENT" }]}
+        gitLinks={[{ url: "https://github.com/plusbeauxjours/movie-app", text: "CLIENT" }]}
       />
       <TextBox
         title={"About this Project"}
@@ -48,7 +48,7 @@ const PopcornMovie: React.FunctionComponent<any> = () => {
         }
       />
       <GreyLine />
-      <TechnicalSheet list={["React-Native", "Axios", "TypeScript", "Styled-Components"]} />
+      <TechnicalSheet list={["React-Native", "TypeScript", "Styled-Components"]} />
       <GreyLine />
       <AboutColors
         list={[

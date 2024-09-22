@@ -36,7 +36,7 @@ const SportUpApp = () => {
         title={"SportUp"}
         date={"8th Jul 2020 - 1st Aug 2020"}
         duration={"4 WEEKS"}
-        git={[
+        gitLinks={[
           { url: "https://github.com/plusbeauxjours/sportup-frontend", text: "CLIENT" },
           { url: "https://github.com/plusbeauxjours/sportup-backend", text: "SERVER" },
         ]}
@@ -50,13 +50,13 @@ const SportUpApp = () => {
       <GreyLine />
       <TechnicalSheet
         list={[
-          "Django",
-          "Graphene",
           "React-Native",
           "Apollo",
-          "Firebase",
           "TypeScript",
           "Styled-Components",
+          "Django",
+          "Graphene",
+          "Firebase",
           "GoogleMapAPI",
           "Heroku",
         ]}
