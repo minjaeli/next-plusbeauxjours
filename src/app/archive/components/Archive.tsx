@@ -219,6 +219,18 @@ const Projects = [
 const Archive = ({}: Props) => {
   return (
     <div className="container mx-auto px-4 py-8">
+      <script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2931981606209596"
+        crossorigin="anonymous"></script>
+      <ins
+        class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-2931981606209596"
+        data-ad-slot="6032690416"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
       <p className="text-lg font-bold ml-1 mb-1">Season 1</p>
       <table className="min-w-full bg-white border border-gray-200">
         <thead>
@@ -230,18 +242,6 @@ const Archive = ({}: Props) => {
             <th className="py-3 px-6 text-left">Link</th>
           </tr>
         </thead>
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2931981606209596"
-          crossorigin="anonymous"></script>
-        <ins
-          class="adsbygoogle"
-          style="display:block; text-align:center;"
-          data-ad-layout="in-article"
-          data-ad-format="fluid"
-          data-ad-client="ca-pub-2931981606209596"
-          data-ad-slot="6032690416"></ins>
-        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
         <tbody className="text-gray-600 text-sm font-light">
           {Projects.map((project, i) => (
             <tr className="border-b border-gray-200 hover:bg-gray-100 align-top">
